@@ -1,7 +1,7 @@
 let butt = document.getElementById('buttUn')
 let butt2 = document.getElementById('buttDeux')
 let butt3 = document.getElementById('buttTrois')
-let butt4 = document.getElementById('buttQautre')
+let butt4 = document.getElementById('buttQuatre')
 
 let carousel1 = document.querySelector('.carou1')
 
