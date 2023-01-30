@@ -263,3 +263,8 @@ divImg6.appendChild(img6)
 items6.appendChild(nom6)
 items6.appendChild(text6)
 items6.appendChild(prix6)
+
+
+
+//CLICK MENU
+

@@ -1,15 +1,23 @@
 @import "../scss/modules/_header.scss";
+@import "../scss/modules/_section1home.scss";
+@import "../scss/modules/_section2_about.scss";
+@import "../scss/modules/_section3_why.scss";
+@import "../scss/modules/_section4_menu.scss";
+@import "../scss/modules/_section5_testmonials.scss";
+@import "../scss/modules/_section6_events.scss";
+@import "../scss/modules/_section7_chef.scss";
+@import "../scss/modules/_section8_book.scss";
+@import "../scss/modules/_section9_galley.scss";
+@import "../scss/modules/_section10_contact.scss";
 
-@font-face {
-    font-family: "heat";
-    src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
-}
+
+
+@import "../scss/modules/_footer.scss";
+
+
 
 body {
     font-family: monospace;
 
 }
-
-//variable
-$vert : rgb(112, 221, 196);
 
