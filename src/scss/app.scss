@@ -310,12 +310,15 @@ $vert : rgb(112, 221, 196);
 
 #Menu {
     margin-top: 100px;
+
     .titreMenu {
         text-align: center;
-        div:last-child{
+
+        div:last-child {
             font-family: "heat";
-            font-size: 25px;
-            span{
+            font-size: 35px;
+
+            span {
                 color: $vert;
             }
         }
@@ -325,10 +328,42 @@ $vert : rgb(112, 221, 196);
         display: flex;
         justify-content: center;
         margin-top: 20px;
-        div{
+
+        div {
             margin-right: 10px;
             border-bottom: solid 2px gray;
             padding-bottom: 5px;
+        }
+    }
+
+    .choixMenu {
+        text-align: center;
+        margin-top: 20px;
+        div:nth-child(2) {
+            color: $vert;
+            font-weight: bold;font-size: 20px;
+        }
+    }
+
+    .carte{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        .items{
+            text-align: center;
+            img{
+                width: 200px!important;
+            }
+            div{
+                margin-top: 10px;
+            }
+            div:nth-child(2){
+                font-weight: bold;
+            }
+            div:last-child{
+                color: $vert;
+                font-weight: bold;
+            }
         }
     }
 }
