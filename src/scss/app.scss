@@ -1,4 +1,64 @@
-@import url(./modules/_header.scss);
+@import url(./modules/_header);
 @import url(./modules/_section1.scss);
 @import url(./modules/_section2.scss);
 @import url(./modules/_section3.scss);
+
+//HEADER
+
+.container{
+    padding-inline: 150px;
+}
+ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div:first-child{
+        font-weight: bold;
+        font-size: 20px;
+        span{
+            color: rgb(96, 218, 165);;
+        }
+    }
+    ul{
+        display: flex;
+        font-weight: bold;
+        color: gray;
+        li:first-child{
+            color: black;
+            border-bottom: solid 3px  rgb(96, 218, 165);
+        }
+        li{
+            margin-left: 20px;
+            padding-bottom: 5px;
+        }
+        
+    }
+    button{
+        background-color: rgb(96, 218, 165);
+        color: white;
+        padding: 10px 15px;
+        letter-spacing: 1px;
+        border: none;
+        border-radius: 20px;
+    }
+}
+
+//SECTION HOME
+
+#home{
+    background-color: rgba(159, 159, 159, 0.21);
+    width: 100%;
+    padding-block: 60px;
+}
