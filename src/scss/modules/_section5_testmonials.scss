@@ -1,23 +1,28 @@
 @import "./variable.scss";
 
 
+
 #testmonial{
     margin-bottom: 200px;
     padding-inline: 280px;
     
-    .carou1{
-        display: flex;
-        width: 600px;
-        height: 50px;
-        justify-content: start;
-        
-        
-        div{
-            width: 600px;
-            flex-shrink: 0;
-        }
-        div:nth-child(even){
-            background-color: red;
+    
+    #contain-carousel1{
+        overflow: hidden;
+        .carou1{
+            display: flex;
+            width: 100%;
+            height: 50px;
+            transition: 0.3s;
+            
+    
+            div{
+                width: 100%;
+                flex-shrink: 0;
+            }
+            div:nth-child(even){
+                background-color: red;
+            }
         }
     }
     .buttonCarou{
