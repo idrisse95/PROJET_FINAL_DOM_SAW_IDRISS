@@ -58,15 +58,15 @@ nav button {
 
 #home {
   background-color: rgba(159, 159, 159, 0.21);
-  width: 100%;
   padding-block: 60px;
   color: rgb(60, 60, 60);
   display: flex;
+  justify-content: space-between;
 }
 #home ul li:first-child {
   font-family: "heat";
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 70px;
+  font-weight: 500;
 }
 #home li {
   margin-top: 15px;
@@ -78,6 +78,7 @@ nav button {
   letter-spacing: 1px;
   border: none;
   border-radius: 20px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.153);
 }
 #home #buttHome button:last-child {
   margin-left: 10px;
