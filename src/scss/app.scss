@@ -259,6 +259,7 @@ $vert : rgb(112, 221, 196);
 #score{
     background: url(../../public/img/stats-bg.jpg);
     width: 100%;
+    background-attachment: fixed;
     #scoreD{
         width: 100%;
         backdrop-filter: brightness(50%);

@@ -256,6 +256,7 @@ body {
 #score {
   background: url(../../public/img/stats-bg.jpg);
   width: 100%;
+  background-attachment: fixed;
 }
 #score #scoreD {
   width: 100%;
