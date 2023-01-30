@@ -111,21 +111,39 @@ nav button {
 }
 #About .book {
   display: flex;
-  width: 100%;
 }
 #About .book .bookTable {
   background: url(../../public/img/about.jpg);
-  width: 140%;
+  width: 160%;
   height: 500px;
-  padding-inline: 50px;
 }
 #About .book .bookTable div {
   background-color: white;
-  padding: 10px 30px;
+  padding: 10px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+#About .book .bookTable div ul {
+  text-align: center;
+}
+#About .book .bookTable div ul li:last-child {
+  color: rgb(96, 218, 165);
+  margin-top: 5px;
+  font-size: 19px;
 }
 #About .book .bookTexte {
   margin-left: 50px;
 }
 #About .book .bookTexte i {
   color: rgb(96, 218, 165);
+}
+
+#m {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 30px;
+  height: 100%;
 }

@@ -140,16 +140,26 @@ nav {
 
     .book {
         display: flex;
-        width: 100%;
 
         .bookTable {
             background: url(../../public/img/about.jpg);
-            width: 140%;
+            width: 160%;
             height: 500px;
-            padding-inline: 50px;
             div{
                 background-color: white;
-                padding: 10px 30px;
+                padding: 10px 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: bold;
+                ul {
+                    text-align: center;
+                    li:last-child{
+                    color: $vert;
+                    margin-top: 5px;
+                    font-size: 19px;
+                }
+            }
             }
 
           
@@ -164,4 +174,12 @@ nav {
         }
     }
 
+}
+
+#m{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 30px;
+    height: 100%;
 }
