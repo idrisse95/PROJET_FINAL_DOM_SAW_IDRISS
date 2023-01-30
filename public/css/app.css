@@ -362,6 +362,28 @@ nav button {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
 }
+#testmonial {
+  margin-bottom: 200px;
+  padding-inline: 280px;
+}
+#testmonial .carou1 {
+  display: flex;
+  width: 600px;
+  height: 50px;
+  justify-content: start;
+}
+#testmonial .carou1 div {
+  width: 600px;
+  flex-shrink: 0;
+}
+#testmonial .carou1 div:nth-child(even) {
+  background-color: red;
+}
+#testmonial .buttonCarou {
+  display: flex;
+  justify-content: center;
+}
+
 @font-face {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
