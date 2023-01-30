@@ -61,11 +61,15 @@ nav button {
   width: 100%;
   padding-block: 60px;
   color: rgb(60, 60, 60);
+  display: flex;
 }
 #home ul li:first-child {
   font-family: "heat";
   font-size: 30px;
   font-weight: 600;
+}
+#home li {
+  margin-top: 15px;
 }
 #home #buttHome button:first-child {
   background-color: rgb(96, 218, 165);

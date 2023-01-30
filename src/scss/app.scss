@@ -67,10 +67,14 @@ nav{
     width: 100%;
     padding-block: 60px;
     color: rgb(60, 60, 60);
+    display: flex;
     ul li:first-child{
         font-family: "heat";
         font-size: 30px;
         font-weight: 600;
+    }
+    li{
+        margin-top: 15px;
     }
     #buttHome{
         button:first-child{
