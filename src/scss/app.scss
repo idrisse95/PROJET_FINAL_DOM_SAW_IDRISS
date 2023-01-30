@@ -144,14 +144,15 @@ nav {
 
         .bookTable {
             background: url(../../public/img/about.jpg);
-            width: 700px;
+            width: 140%;
             height: 500px;
-
-            ul {
+            padding-inline: 50px;
+            div{
                 background-color: white;
-                padding: 10px 50px;
-                text-align: center;
+                padding: 10px 30px;
             }
+
+          
         }
 
         .bookTexte {

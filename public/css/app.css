@@ -115,13 +115,13 @@ nav button {
 }
 #About .book .bookTable {
   background: url(../../public/img/about.jpg);
-  width: 700px;
+  width: 140%;
   height: 500px;
+  padding-inline: 50px;
 }
-#About .book .bookTable ul {
+#About .book .bookTable div {
   background-color: white;
-  padding: 10px 50px;
-  text-align: center;
+  padding: 10px 30px;
 }
 #About .book .bookTexte {
   margin-left: 50px;
