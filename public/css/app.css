@@ -365,6 +365,7 @@ nav button {
 #testmonial {
   margin-block: 70px;
   padding-inline: 280px;
+  padding-block: 70px;
   background-color: rgba(159, 159, 159, 0.21);
 }
 #testmonial #titre-testi {
@@ -376,7 +377,12 @@ nav button {
   color: gray;
 }
 #testmonial #titre-testi li:last-child {
-  font-size: 25px;
+  margin-top: 10px;
+  font-size: 35px;
+  font-family: "heat";
+}
+#testmonial #titre-testi li:last-child span {
+  color: rgb(112, 221, 196);
 }
 #testmonial #contain-carousel1 {
   overflow: hidden;
@@ -388,11 +394,10 @@ nav button {
   transition: 0.3s;
 }
 #testmonial #contain-carousel1 .carou1 div {
+  border-left: solid 3px rgb(112, 221, 196);
   width: 100%;
   flex-shrink: 0;
-}
-#testmonial #contain-carousel1 .carou1 div:nth-child(even) {
-  background-color: red;
+  padding-left: 20px;
 }
 #testmonial .buttonCarou {
   display: flex;
