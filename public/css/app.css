@@ -128,7 +128,7 @@ body {
 }
 #About .book .bookTable div {
   background-color: white;
-  padding: 10px 100px;
+  padding: 5px 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -255,5 +255,25 @@ body {
 
 #score {
   background: url(../../public/img/stats-bg.jpg);
-  filter: brightness(50%);
+  width: 100%;
+}
+#score #scoreD {
+  width: 100%;
+  -webkit-backdrop-filter: brightness(50%);
+          backdrop-filter: brightness(50%);
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding-block: 100px;
+}
+#score #scoreD div ul {
+  text-align: center;
+}
+#score #scoreD div ul li:first-child {
+  font-weight: bold;
+  font-size: 30px;
+}
+#score #scoreD div ul li:last-child {
+  font-weight: 200;
+  color: rgb(214, 214, 214);
 }
