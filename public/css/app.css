@@ -1,7 +1,3 @@
-@import url(./modules/_header);
-@import url(./modules/_section1.scss);
-@import url(./modules/_section2.scss);
-@import url(./modules/_section3.scss);
 @font-face {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
@@ -93,4 +89,43 @@ nav button {
   border-radius: 100%;
   font-size: 12px;
   margin-right: 5px;
+}
+
+#About {
+  padding-top: 50px;
+}
+#About .titre {
+  text-align: center;
+}
+#About .titre li:first-child {
+  color: gray;
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+#About .titre li:last-child {
+  font-family: "heat";
+  font-size: 25px;
+}
+#About .titre li:last-child span {
+  color: rgb(96, 218, 165);
+}
+#About .book {
+  display: flex;
+  width: 100%;
+}
+#About .book .bookTable {
+  background: url(../../public/img/about.jpg);
+  width: 700px;
+  height: 500px;
+}
+#About .book .bookTable ul {
+  background-color: white;
+  padding: 10px 50px;
+  text-align: center;
+}
+#About .book .bookTexte {
+  margin-left: 50px;
+}
+#About .book .bookTexte i {
+  color: rgb(96, 218, 165);
 }

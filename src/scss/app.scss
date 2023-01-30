@@ -1,56 +1,62 @@
-@import url(./modules/_header);
-@import url(./modules/_section1.scss);
-@import url(./modules/_section2.scss);
-@import url(./modules/_section3.scss);
-
 @font-face {
     font-family: "heat";
     src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
 }
 
+//variable
+$vert : rgb(96, 218, 165);
 //HEADER
 
-.container{
+.container {
     padding-inline: 150px;
 }
-ul{
+
+ul {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
 }
-a{
+
+a {
     text-decoration: none;
     color: unset;
 }
 
 
-nav{
+nav {
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    div:first-child{
+
+    div:first-child {
         font-weight: bold;
         font-size: 20px;
-        span{
-            color: rgb(96, 218, 165);;
+
+        span {
+            color: rgb(96, 218, 165);
+            ;
         }
     }
-    ul{
+
+    ul {
         display: flex;
         font-weight: bold;
         color: gray;
-        li:first-child{
+
+        li:first-child {
             color: black;
-            border-bottom: solid 3px  rgb(96, 218, 165);
+            border-bottom: solid 3px rgb(96, 218, 165);
         }
-        li{
+
+        li {
             margin-left: 20px;
             padding-bottom: 5px;
         }
-        
+
     }
-    button{
+
+    button {
         background-color: rgb(96, 218, 165);
         color: white;
         padding: 10px 15px;
@@ -62,23 +68,25 @@ nav{
 
 //SECTION HOME
 
-#home{
+#home {
     background-color: rgba(159, 159, 159, 0.21);
     padding-block: 60px;
     color: rgb(60, 60, 60);
     display: flex;
     justify-content: space-between;
 
-    ul li:first-child{
+    ul li:first-child {
         font-family: "heat";
         font-size: 70px;
         font-weight: 500;
     }
-    li{
+
+    li {
         margin-top: 15px;
     }
-    #buttHome{
-        button:first-child{
+
+    #buttHome {
+        button:first-child {
             background-color: rgb(96, 218, 165);
             color: white;
             padding: 10px 15px;
@@ -88,12 +96,14 @@ nav{
             box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.153);
 
         }
-        button:last-child{
+
+        button:last-child {
             margin-left: 10px;
             font-weight: bold;
             border: none;
             background-color: transparent;
-            i{
+
+            i {
                 color: rgb(96, 218, 165);
                 border: solid 1px rgb(96, 218, 165);
                 padding: 7px;
@@ -101,5 +111,56 @@ nav{
                 font-size: 12px;
                 margin-right: 5px;
             }
+        }
     }
-}}
+}
+
+
+#About {
+    padding-top: 50px;
+
+    .titre {
+        text-align: center;
+
+        li:first-child {
+            color: gray;
+            font-size: 11px;
+            margin-bottom: 5px;
+        }
+
+        li:last-child {
+            font-family: "heat";
+            font-size: 25px;
+
+            span {
+                color: rgb(96, 218, 165);
+            }
+        }
+    }
+
+    .book {
+        display: flex;
+        width: 100%;
+
+        .bookTable {
+            background: url(../../public/img/about.jpg);
+            width: 700px;
+            height: 500px;
+
+            ul {
+                background-color: white;
+                padding: 10px 50px;
+                text-align: center;
+            }
+        }
+
+        .bookTexte {
+            margin-left: 50px;
+
+            i {
+                color: $vert;
+            }
+        }
+    }
+
+}
