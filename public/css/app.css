@@ -22,6 +22,22 @@
   text-align: center;
 }
 
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: rgb(255, 217, 0);
+}
+
 .container {
   padding-inline: 150px;
 }
@@ -100,6 +116,22 @@ nav button {
   text-align: center;
 }
 
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: rgb(255, 217, 0);
+}
+
 #home {
   background-color: rgba(159, 159, 159, 0.21);
   padding-block: 60px;
@@ -161,6 +193,22 @@ nav button {
 
 .center {
   text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: rgb(255, 217, 0);
 }
 
 #About {
@@ -281,6 +329,22 @@ nav button {
   text-align: center;
 }
 
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: rgb(255, 217, 0);
+}
+
 #why {
   padding-block: 50px;
   display: flex;
@@ -391,6 +455,22 @@ nav button {
   text-align: center;
 }
 
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: rgb(255, 217, 0);
+}
+
 #Menu {
   margin-top: 70px;
 }
@@ -482,9 +562,25 @@ nav button {
   text-align: center;
 }
 
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: rgb(255, 217, 0);
+}
+
 #testmonial {
   margin-block: 70px;
-  padding-inline: 280px;
+  padding-inline: 350px;
   padding-block: 70px;
   background-color: rgba(159, 159, 159, 0.21);
 }
@@ -506,6 +602,7 @@ nav button {
 }
 #testmonial #contain-carousel1 {
   overflow: hidden;
+  height: 300px;
 }
 #testmonial #contain-carousel1 .carou1 {
   display: flex;
@@ -513,11 +610,24 @@ nav button {
   height: 50px;
   transition: 0.3s;
 }
-#testmonial #contain-carousel1 .carou1 div {
-  border-left: solid 3px rgb(112, 221, 196);
+#testmonial #contain-carousel1 .carou1 .c {
   width: 100%;
   flex-shrink: 0;
+}
+#testmonial #contain-carousel1 .carou1 .c .b {
+  border-left: solid 2px rgb(112, 221, 196);
+  padding-left: 10px;
+}
+#testmonial #contain-carousel1 .carou1 .c div:first-child {
+  width: 70%;
+  padding-right: 100px;
+}
+#testmonial #contain-carousel1 .carou1 .c ul li div {
+  flex-shrink: 1;
   padding-left: 20px;
+}
+#testmonial #contain-carousel1 .carou1 .c ul li:first-child {
+  font-style: italic;
 }
 #testmonial .buttonCarou {
   display: flex;
@@ -548,28 +658,20 @@ nav button {
   text-align: center;
 }
 
-@font-face {
-  font-family: "heat";
-  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
-}
-.upp {
-  text-transform: uppercase;
+.flex {
+  display: flex;
 }
 
-.vert {
-  color: rgb(112, 221, 196);
+.jc {
+  justify-content: center;
 }
 
-.gris {
-  color: gray;
+.red {
+  color: red;
 }
 
-.f1 {
-  font-size: 11px;
-}
-
-.center {
-  text-align: center;
+.jaune {
+  color: rgb(255, 217, 0);
 }
 
 @font-face {
@@ -596,28 +698,20 @@ nav button {
   text-align: center;
 }
 
-@font-face {
-  font-family: "heat";
-  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
-}
-.upp {
-  text-transform: uppercase;
+.flex {
+  display: flex;
 }
 
-.vert {
-  color: rgb(112, 221, 196);
+.jc {
+  justify-content: center;
 }
 
-.gris {
-  color: gray;
+.red {
+  color: red;
 }
 
-.f1 {
-  font-size: 11px;
-}
-
-.center {
-  text-align: center;
+.jaune {
+  color: rgb(255, 217, 0);
 }
 
 @font-face {
@@ -644,6 +738,22 @@ nav button {
   text-align: center;
 }
 
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: rgb(255, 217, 0);
+}
+
 @font-face {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
@@ -666,6 +776,142 @@ nav button {
 
 .center {
   text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: rgb(255, 217, 0);
+}
+
+@font-face {
+  font-family: "heat";
+  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
+}
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: rgb(112, 221, 196);
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: rgb(255, 217, 0);
+}
+
+@font-face {
+  font-family: "heat";
+  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
+}
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: rgb(112, 221, 196);
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: rgb(255, 217, 0);
+}
+
+@font-face {
+  font-family: "heat";
+  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
+}
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: rgb(112, 221, 196);
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: rgb(255, 217, 0);
 }
 
 body {

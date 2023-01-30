@@ -6,27 +6,42 @@
 
 //variable
 $vert : rgb(112, 221, 196);
-$gris :  rgba(159, 159, 159, 0.21);
+$gris : rgba(159, 159, 159, 0.21);
 
 
 //
-.upp{
+.upp {
     text-transform: uppercase;
 }
 
-.vert{
+.vert {
     color: $vert;
 }
 
-.gris{
+.gris {
     color: gray;
 }
 
-.f1{
+.f1 {
     font-size: 11px;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
+.flex {
+    display: flex;
+}
+
+.jc {
+    justify-content: center;
+}
+
+.red {
+    color: red;
+}
+
+.jaune {
+    color: rgb(255, 217, 0);
+}
