@@ -3,6 +3,11 @@
 @import url(./modules/_section2.scss);
 @import url(./modules/_section3.scss);
 
+@font-face {
+    font-family: "heat";
+    src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
+}
+
 //HEADER
 
 .container{
@@ -61,4 +66,33 @@ nav{
     background-color: rgba(159, 159, 159, 0.21);
     width: 100%;
     padding-block: 60px;
-}
+    color: rgb(60, 60, 60);
+    ul li:first-child{
+        font-family: "heat";
+        font-size: 30px;
+        font-weight: 600;
+    }
+    #buttHome{
+        button:first-child{
+            background-color: rgb(96, 218, 165);
+            color: white;
+            padding: 10px 15px;
+            letter-spacing: 1px;
+            border: none;
+            border-radius: 20px;
+        }
+        button:last-child{
+            margin-left: 10px;
+            font-weight: bold;
+            border: none;
+            background-color: transparent;
+            i{
+                color: rgb(96, 218, 165);
+                border: solid 1px rgb(96, 218, 165);
+                padding: 7px;
+                border-radius: 100%;
+                font-size: 12px;
+                margin-right: 5px;
+            }
+    }
+}}
