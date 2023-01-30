@@ -353,6 +353,11 @@ nav button {
   font-size: 20px;
 }
 
+.color {
+  color: rgb(112, 221, 196);
+  border-bottom: 2px solid rgb(112, 221, 196) !important;
+}
+
 @font-face {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);

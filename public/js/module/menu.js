@@ -268,3 +268,23 @@ items6.appendChild(prix6)
 
 //CLICK MENU
 
+let choixd = document.querySelectorAll('#choix div')
+
+choixd.forEach(element => {
+    element.addEventListener('click',()=>{
+        element.classList.add('color')
+        carte.style.opacity="0"
+        cartel2.style.opacity="0"
+        titre1.style.opacity="0"
+        titre2.style.opacity="0"
+        setTimeout(() => {
+            cartel2.style.opacity="1"
+            carte.style.opacity="1"
+            titre1.style.opacity="1"
+            titre2.style.opacity="1"
+            titre2.textContent=element.textContent
+        }, 300);
+         
+    })
+    
+});
