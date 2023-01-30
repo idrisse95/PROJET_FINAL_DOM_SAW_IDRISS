@@ -278,3 +278,27 @@ body {
   font-weight: 200;
   color: rgb(214, 214, 214);
 }
+
+#Menu {
+  margin-top: 100px;
+}
+#Menu .titreMenu {
+  text-align: center;
+}
+#Menu .titreMenu div:last-child {
+  font-family: "heat";
+  font-size: 25px;
+}
+#Menu .titreMenu div:last-child span {
+  color: rgb(112, 221, 196);
+}
+#Menu #choix {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#Menu #choix div {
+  margin-right: 10px;
+  border-bottom: solid 2px gray;
+  padding-bottom: 5px;
+}

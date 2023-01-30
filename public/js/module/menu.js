@@ -1,14 +1,16 @@
-import {menu} from "./variable.js";
+import {
+    menu
+} from "./variable.js";
 
 
 
 let titreMenu = document.createElement('div')
 menu.appendChild(titreMenu)
-titreMenu.setAttribute('class','titreMenu')
+titreMenu.setAttribute('class', 'titreMenu')
 
 let ourMenu = document.createElement('div')
 titreMenu.appendChild(ourMenu)
-ourMenu.textContent="OUR MENU"
+ourMenu.textContent = "OUR MENU"
 
 let check = document.createElement('div')
 titreMenu.appendChild(check)
@@ -21,8 +23,17 @@ let deux = document.createElement('div')
 let trois = document.createElement('div')
 let quatre = document.createElement('div')
 
-choix.setAttribute('id','choix')
+menu.appendChild(choix)
 
+choix.setAttribute('id', 'choix')
+
+
+
+
+un.textContent = "Startes"
+deux.textContent = "Breakfast"
+trois.textContent = "Lunch"
+quatre.textContent = "Dinner"
 
 choix.appendChild(un);
 choix.appendChild(deux);

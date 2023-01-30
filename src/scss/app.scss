@@ -154,23 +154,24 @@ $vert : rgb(112, 221, 196);
                     justify-content: center;
                     align-items: center;
 
-                    .containB{
+                    .containB {
                         background-color: rgba(252, 0, 0, 0.47);
                         border-radius: 50%;
                         padding: 10px;
+
                         i {
                             border: solid 1px rgb(0, 119, 255);
-                            
+
                             padding: 25px;
                             background-color: $vert;
                             color: white;
                             font-size: 12Px;
                             border-radius: 50%;
                             margin-right: 0;
-                            
+
                         }
                     }
-                   
+
 
                 }
             }
@@ -190,13 +191,14 @@ $vert : rgb(112, 221, 196);
 
 //SECTION WHY
 
-#why{
+#why {
     padding-block: 50px;
     display: flex;
     align-items: center;
     background-color: rgba(159, 159, 159, 0.21);
     font-size: 14px;
-    #miam{
+
+    #miam {
         width: 50%;
         height: 250px;
         background-color: $vert;
@@ -204,77 +206,92 @@ $vert : rgb(112, 221, 196);
         padding: 20px;
         text-align: left;
         margin-left: 0;
-        ul li:first-child{
+
+        ul li:first-child {
             font-weight: bold;
             font-size: 30px;
         }
-        li{
+
+        li {
             margin-top: 10px;
         }
-        button{
-            padding: 10px 15px; background-color: rgba(255, 255, 255, 0.281);
+
+        button {
+            padding: 10px 15px;
+            background-color: rgba(255, 255, 255, 0.281);
             border: none;
             color: white;
             border-radius: 20px;
-            
+
         }
-        
-        
+
+
     }
-    div{
+
+    div {
         background-color: white;
         padding: 15px;
         text-align: center;
         margin-left: 20px;
-        display: flex;align-items: center;
+        display: flex;
+        align-items: center;
         height: 245px;
         width: 35%;
         transition: 0.2s;
-        ul{
-            li{
+
+        ul {
+            li {
                 margin-top: 25px;
-                i{
+
+                i {
                     background-color: rgba(254, 86, 86, 0.119);
                     padding: 20px;
                     border-radius: 50%;
                     color: $vert;
                 }
             }
-            li:nth-child(2){
+
+            li:nth-child(2) {
                 font-weight: bold;
             }
-            li:last-child{
+
+            li:last-child {
                 font-size: 12px;
             }
         }
-        &:hover{
+
+        &:hover {
             transform: scale(1.07);
         }
-        
+
     }
 }
 
 
 
-#score{
+#score {
     background: url(../../public/img/stats-bg.jpg);
     width: 100%;
     background-attachment: fixed;
-    #scoreD{
+
+    #scoreD {
         width: 100%;
         backdrop-filter: brightness(50%);
         display: flex;
         justify-content: space-around;
         color: white;
         padding-block: 100px;
-        div{
-            ul{
+
+        div {
+            ul {
                 text-align: center;
-                li:first-child{
+
+                li:first-child {
                     font-weight: bold;
                     font-size: 30px;
                 }
-                li:last-child{
+
+                li:last-child {
                     font-weight: 200;
                     color: rgb(214, 214, 214);
                 }
@@ -282,7 +299,36 @@ $vert : rgb(112, 221, 196);
 
         }
     }
- 
-    
-    
+
+
+
+}
+
+
+
+//SECTION MENU
+
+#Menu {
+    margin-top: 100px;
+    .titreMenu {
+        text-align: center;
+        div:last-child{
+            font-family: "heat";
+            font-size: 25px;
+            span{
+                color: $vert;
+            }
+        }
+    }
+
+    #choix {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        div{
+            margin-right: 10px;
+            border-bottom: solid 2px gray;
+            padding-bottom: 5px;
+        }
+    }
 }
