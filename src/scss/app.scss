@@ -11,7 +11,7 @@ body {
 }
 
 //variable
-$vert : rgb(96, 218, 165);
+$vert : rgb(112, 221, 196);
 
 
 //SECTION HOME
@@ -252,4 +252,12 @@ $vert : rgb(96, 218, 165);
         }
         
     }
+}
+
+
+
+#score{
+    background: url(../../public/img/stats-bg.jpg);
+    filter: brightness(50%);
+    
 }

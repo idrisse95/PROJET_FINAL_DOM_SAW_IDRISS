@@ -141,7 +141,7 @@ body {
   font-size: 18px;
 }
 #About .book .bookTable div ul li:last-child {
-  color: rgb(96, 218, 165);
+  color: rgb(112, 221, 196);
   margin-top: 5px;
   font-size: 19px;
 }
@@ -149,7 +149,7 @@ body {
   margin-left: 50px;
 }
 #About .book .bookTexte i {
-  color: rgb(96, 218, 165);
+  color: rgb(112, 221, 196);
 }
 #About .book .bookTexte ul li:first-child {
   font-style: italic;
@@ -178,7 +178,7 @@ body {
 #About .book .bookTexte ul #fondLi .containB i {
   border: solid 1px rgb(0, 119, 255);
   padding: 25px;
-  background-color: rgb(96, 218, 165);
+  background-color: rgb(112, 221, 196);
   color: white;
   font-size: 12Px;
   border-radius: 50%;
@@ -203,7 +203,7 @@ body {
 #why #miam {
   width: 50%;
   height: 250px;
-  background-color: rgb(96, 218, 165);
+  background-color: rgb(112, 221, 196);
   color: white;
   padding: 20px;
   text-align: left;
@@ -241,7 +241,7 @@ body {
   background-color: rgba(254, 86, 86, 0.119);
   padding: 20px;
   border-radius: 50%;
-  color: rgb(96, 218, 165);
+  color: rgb(112, 221, 196);
 }
 #why div ul li:nth-child(2) {
   font-weight: bold;
@@ -251,4 +251,9 @@ body {
 }
 #why div:hover {
   transform: scale(1.07);
+}
+
+#score {
+  background: url(../../public/img/stats-bg.jpg);
+  filter: brightness(50%);
 }
