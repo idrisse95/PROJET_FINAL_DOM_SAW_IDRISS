@@ -8,6 +8,7 @@ console.log(carousel1);
 
 butt.addEventListener('click',()=>{
     carousel1.style.transform="translateX(0%)"
+    
 })
 
 butt2.addEventListener('click',()=>{

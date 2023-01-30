@@ -96,15 +96,20 @@
 
                         i {
                             border: solid 1px rgb(0, 119, 255);
-
+                            
                             padding: 25px;
                             background-color: $vert;
                             color: white;
                             font-size: 12Px;
                             border-radius: 50%;
                             margin-right: 0;
+                            transition: 0.1s;
 
                         }
+                        // &:hover i{
+                        //     transform: scale(1.5);
+                             
+                        // }
                     }
 
 

@@ -21,7 +21,7 @@
 
     #buttHome {
         button:first-child {
-            background-color: rgb(96, 218, 165);
+            background-color: $vert;
             color: white;
             padding: 10px 15px;
             letter-spacing: 1px;
@@ -38,8 +38,8 @@
             background-color: transparent;
 
             i {
-                color: rgb(96, 218, 165);
-                border: solid 1px rgb(96, 218, 165);
+                color: $vert;
+                border: solid 1px $vert;
                 padding: 7px;
                 border-radius: 100%;
                 font-size: 12px;
