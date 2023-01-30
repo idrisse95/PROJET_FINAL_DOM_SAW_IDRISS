@@ -2,6 +2,26 @@
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
 }
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: rgb(112, 221, 196);
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
 .container {
   padding-inline: 150px;
 }
@@ -60,6 +80,26 @@ nav button {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
 }
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: rgb(112, 221, 196);
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
 #home {
   background-color: rgba(159, 159, 159, 0.21);
   padding-block: 60px;
@@ -103,6 +143,26 @@ nav button {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
 }
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: rgb(112, 221, 196);
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
 #About {
   padding-top: 50px;
   margin-bottom: 50px;
@@ -201,6 +261,26 @@ nav button {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
 }
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: rgb(112, 221, 196);
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
 #why {
   padding-block: 50px;
   display: flex;
@@ -291,6 +371,26 @@ nav button {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
 }
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: rgb(112, 221, 196);
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
 #Menu {
   margin-top: 70px;
 }
@@ -362,6 +462,26 @@ nav button {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
 }
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: rgb(112, 221, 196);
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
 #testmonial {
   margin-block: 70px;
   padding-inline: 280px;
@@ -408,26 +528,146 @@ nav button {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
 }
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: rgb(112, 221, 196);
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
 @font-face {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
 }
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: rgb(112, 221, 196);
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
 @font-face {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
 }
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: rgb(112, 221, 196);
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
 @font-face {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
 }
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: rgb(112, 221, 196);
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
 @font-face {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
 }
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: rgb(112, 221, 196);
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
 @font-face {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
 }
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: rgb(112, 221, 196);
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
 body {
   font-family: monospace;
 }

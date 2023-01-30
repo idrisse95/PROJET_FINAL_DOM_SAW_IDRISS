@@ -7,3 +7,26 @@
 //variable
 $vert : rgb(112, 221, 196);
 $gris :  rgba(159, 159, 159, 0.21);
+
+
+//
+.upp{
+    text-transform: uppercase;
+}
+
+.vert{
+    color: $vert;
+}
+
+.gris{
+    color: gray;
+}
+
+.f1{
+    font-size: 11px;
+}
+
+.center{
+    text-align: center;
+}
+
