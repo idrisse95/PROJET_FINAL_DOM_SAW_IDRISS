@@ -14,13 +14,15 @@
 
     .modal {
 
-        background-color: rgba(112, 221, 196, 0.836);
+        background-color: rgba(112, 221, 196, 0.607);
+        border-radius: 5px;
         width: 300px;
         padding: 50px 30px;
         height: 300px;
        
         #input-modal {
             background-color: white;
+            border-radius: 5px;
             width: 100%;
             height: 100%;
             margin-top: 0;
@@ -29,3 +31,7 @@
 
 }
  
+
+#contain-modal{
+    display: none;
+}
