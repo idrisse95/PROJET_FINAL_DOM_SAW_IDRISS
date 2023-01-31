@@ -805,7 +805,12 @@ nav button {
   background-size: cover;
   background-repeat: no-repeat;
 }
+#Events #contain-carousel2 #carou2 #slider2 div {
+  display: flex;
+  align-items: flex-end;
+}
 #Events #contain-carousel2 #carou2 #slider2 div div ul {
+  padding: 10px;
   color: white;
 }
 #Events #contain-carousel2 #carou2 #slider2 div div ul li:nth-child(1) {
@@ -815,9 +820,14 @@ nav button {
 #Events #contain-carousel2 #carou2 #slider2 div div ul li:nth-child(2) {
   font-weight: bold;
   font-size: 20px;
+  border-bottom: rgb(112, 221, 196) solid 3px;
+  width: 10%;
+  padding-bottom: 5px;
+  margin-top: 5px;
 }
 #Events #contain-carousel2 #carou2 #slider2 div div ul li:nth-child(3) {
-  font-size: 15px;
+  margin-top: 5px;
+  color: rgb(205, 205, 205);
 }
 #Events .butt-carousel2 {
   margin-top: 20px;

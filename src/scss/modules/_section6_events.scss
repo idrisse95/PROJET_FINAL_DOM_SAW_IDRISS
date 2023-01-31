@@ -55,8 +55,13 @@
                     background-repeat: no-repeat;
                 }
                 div{
+                    display: flex;
+                    align-items: flex-end;
+                   
                     div{
+                      
                         ul{
+                            padding: 10px;
                             color: white;
                             li:nth-child(1){
                                 font-weight: bold;
@@ -65,9 +70,14 @@
                             li:nth-child(2){
                                 font-weight: bold;
                                 font-size: 20px;
+                                border-bottom: $vert solid 3px;
+                                width: 10%;
+                                padding-bottom: 5px;
+                                margin-top: 5px;
                             }
                             li:nth-child(3){
-                                font-size: 15px;
+                                margin-top: 5px;
+                                color: rgb(205, 205, 205);
                             }
                         }
                     }
