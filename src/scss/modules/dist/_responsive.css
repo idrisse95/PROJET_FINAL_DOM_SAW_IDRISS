@@ -53,12 +53,10 @@
   }
 
   #Events #contain-carousel2 #carou2 {
-    width: 400px !important;
+    padding-inline: 30px;
   }
   #Events #contain-carousel2 #carou2 #slider2 {
-    width: 100% !important;
     flex-direction: column;
-    justify-content: center !important;
   }
   #Events #contain-carousel2 #carou2 #slider2 div {
     margin-left: 0 !important;
@@ -68,5 +66,14 @@
   }
   #Events #contain-carousel2 #carou2 #slider2 .nn {
     display: none !important;
+  }
+
+  #Chefs .carte-chefs {
+    flex-direction: column;
+    align-items: center;
+  }
+  #Chefs .carte-chefs div {
+    width: 450px;
+    margin-top: 30px;
   }
 }
