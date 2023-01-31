@@ -50,6 +50,10 @@
   margin-top: 10px;
 }
 
+.bd {
+  font-weight: bold;
+}
+
 #home {
   background-color: rgba(159, 159, 159, 0.21);
   padding-block: 60px;
@@ -88,4 +92,11 @@
   border-radius: 100%;
   font-size: 12px;
   margin-right: 5px;
+}
+
+@media screen and (max-width: 769px) {
+  #home {
+    display: block;
+    text-align: center;
+  }
 }

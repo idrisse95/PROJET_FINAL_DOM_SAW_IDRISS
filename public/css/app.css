@@ -213,6 +213,12 @@ nav button {
   margin-right: 5px;
 }
 
+@media screen and (max-width: 769px) {
+  #home {
+    display: block;
+    text-align: center;
+  }
+}
 @font-face {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
@@ -1224,25 +1230,30 @@ nav button {
 
 #Gallery {
   background-color: rgba(159, 159, 159, 0.21);
-  padding-block: 100px;
+  padding-block: 50px;
 }
 #Gallery #tout {
   display: flex;
   justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
 }
-#Gallery #tout .contain-carousel2 {
+#Gallery #tout .contain-carousel3 {
   text-align: center;
   overflow: hidden;
   width: 1350px;
+  padding-block: 5px;
 }
-#Gallery #tout .contain-carousel2 .carou2 {
+#Gallery #tout .contain-carousel3 .carou3 {
   display: flex;
   width: 100%;
+  transition: 0.5S;
 }
-#Gallery #tout .contain-carousel2 .carou2 div {
+#Gallery #tout .contain-carousel3 .carou3 div {
   flex-shrink: 0;
+  box-shadow: 0 0 5px 5px rgba(77, 77, 77, 0.276);
 }
-#Gallery #tout .contain-carousel2 .carou2 div:nth-child(1) {
+#Gallery #tout .contain-carousel3 .carou3 div:nth-child(1) {
   background: url(../../../public/img/gallery/gallery-1.jpg);
   width: 250px;
   height: 200px;
@@ -1252,7 +1263,7 @@ nav button {
   background-size: cover;
   background-repeat: no-repeat;
 }
-#Gallery #tout .contain-carousel2 .carou2 div:nth-child(2) {
+#Gallery #tout .contain-carousel3 .carou3 div:nth-child(2) {
   background: url(../../../public/img/gallery/gallery-2.jpg);
   width: 250px;
   height: 200px;
@@ -1260,7 +1271,7 @@ nav button {
   background-size: cover;
   background-repeat: no-repeat;
 }
-#Gallery #tout .contain-carousel2 .carou2 div:nth-child(3) {
+#Gallery #tout .contain-carousel3 .carou3 div:nth-child(3) {
   background: url(../../../public/img/gallery/gallery-3.jpg);
   width: 250px;
   height: 200px;
@@ -1268,7 +1279,7 @@ nav button {
   background-size: cover;
   background-repeat: no-repeat;
 }
-#Gallery #tout .contain-carousel2 .carou2 div:nth-child(4) {
+#Gallery #tout .contain-carousel3 .carou3 div:nth-child(4) {
   background: url(../../../public/img/gallery/gallery-4.jpg);
   width: 250px;
   height: 200px;
@@ -1276,7 +1287,7 @@ nav button {
   background-size: cover;
   background-repeat: no-repeat;
 }
-#Gallery #tout .contain-carousel2 .carou2 div:nth-child(5) {
+#Gallery #tout .contain-carousel3 .carou3 div:nth-child(5) {
   background: url(../../../public/img/gallery/gallery-5.jpg);
   width: 250px;
   height: 200px;
@@ -1284,7 +1295,7 @@ nav button {
   background-size: cover;
   background-repeat: no-repeat;
 }
-#Gallery #tout .contain-carousel2 .carou2 div:nth-child(6) {
+#Gallery #tout .contain-carousel3 .carou3 div:nth-child(6) {
   background: url(../../../public/img/gallery/gallery-6.jpg);
   width: 250px;
   height: 200px;
@@ -1292,7 +1303,7 @@ nav button {
   background-size: cover;
   background-repeat: no-repeat;
 }
-#Gallery #tout .contain-carousel2 .carou2 div:nth-child(7) {
+#Gallery #tout .contain-carousel3 .carou3 div:nth-child(7) {
   background: url(../../../public/img/gallery/gallery-7.jpg);
   width: 250px;
   height: 200px;
@@ -1300,13 +1311,61 @@ nav button {
   background-size: cover;
   background-repeat: no-repeat;
 }
-#Gallery #tout .contain-carousel2 .carou2 div:nth-child(8) {
+#Gallery #tout .contain-carousel3 .carou3 div:nth-child(8) {
   background: url(../../../public/img/gallery/gallery-8.jpg);
   width: 250px;
   height: 200px;
   margin-inline: 10px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+#Gallery #tout .contain-carousel3 .carou3 div:nth-child(9) {
+  background: url(../../../public/img/gallery/gallery-1.jpg);
+  width: 250px;
+  height: 200px;
+  margin-inline: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Gallery #tout .contain-carousel3 .carou3 div:nth-child(10) {
+  background: url(../../../public/img/gallery/gallery-2.jpg);
+  width: 250px;
+  height: 200px;
+  margin-inline: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Gallery #tout .contain-carousel3 .carou3 div:nth-child(11) {
+  background: url(../../../public/img/gallery/gallery-3.jpg);
+  width: 250px;
+  height: 200px;
+  margin-inline: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Gallery #tout .contain-carousel3 .carou3 div:nth-child(12) {
+  background: url(../../../public/img/gallery/gallery-4.jpg);
+  width: 250px;
+  height: 200px;
+  margin-inline: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Gallery button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  margin-inline: 2px;
+  background-color: rgb(174, 174, 174);
+}
+#Gallery button:focus {
+  background-color: rgb(112, 221, 196);
+}
+
+.divVert {
+  padding: 4px;
+  border: 4px solid rgb(112, 221, 196);
 }
 
 @font-face {

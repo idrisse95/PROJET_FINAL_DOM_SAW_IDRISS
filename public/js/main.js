@@ -4,5 +4,6 @@ import * as FUNCTION from "./module/function.js";
 import * as VAR from "./module/variable.js"
 import * as MENU from "./module/menu.js"
 import * as MODAL from "./module/modal.js"
+import * as CAROUSEL from "./module/carousel3.js"
 
  
