@@ -1467,13 +1467,28 @@ nav button {
 }
 
 footer {
+  margin-top: 70px;
   padding: 30px;
   background-color: rgb(30, 30, 30);
-  color: white;
+  color: gray;
+}
+footer ul {
+  margin: 0;
+}
+footer .items-footer {
+  display: flex;
+}
+footer .items-footer div:first-child {
+  margin-right: 10px;
+  font-size: 17px;
+}
+footer .items-footer div:nth-child(2) ul li:nth-child(1) {
+  margin-bottom: 7px;
+  font-weight: bold;
 }
 footer #ligne1 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 body {
