@@ -62,3 +62,17 @@ $gris : rgba(159, 159, 159, 0.21);
 .bd{
     font-weight: bold;
 }
+
+
+@keyframes hoverB {
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: rgb(154, 0, 0);
+
+    }
+    100%{
+        background-color: rgb(154, 0, 0);
+    }
+}

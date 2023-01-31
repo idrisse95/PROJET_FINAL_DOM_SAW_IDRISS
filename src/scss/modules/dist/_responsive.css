@@ -76,4 +76,75 @@
     width: 450px;
     margin-top: 30px;
   }
+
+  .contain-form {
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 20px;
+  }
+  .contain-form div:nth-child(1) {
+    display: none;
+  }
+  .contain-form div:last-child {
+    padding-block: 20px;
+    width: 60% !important;
+    background: url(../../../public/img/reservation.jpg);
+    background-size: cover;
+  }
+  .contain-form div:last-child input {
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+  .contain-form div:last-child textarea {
+    margin-left: 0 !important;
+  }
+
+  #Gallery .contain-carousel3 {
+    width: 520px !important;
+  }
+  #Gallery .contain-carousel3 .carou3 {
+    animation: carou3 25s linear infinite;
+  }
+  #Gallery .contain-carousel3 .carou3:hover {
+    animation-play-state: paused;
+  }
+  @keyframes carou3 {
+    0% {
+      transform: translateX(0%);
+    }
+    16% {
+      transform: translateX(-50%);
+    }
+    32% {
+      transform: translateX(-100%);
+    }
+    48% {
+      transform: translateX(-150%);
+    }
+    64% {
+      transform: translateX(-200%);
+    }
+    80% {
+      transform: translateX(-250%);
+    }
+    100% {
+      transform: translateX(-350%);
+    }
+  }
+  #Gallery .contain-carousel3 .carou3 div:first-child {
+    margin-left: 0 !important;
+  }
+  #Gallery button {
+    display: none;
+  }
+
+  #bas-contact {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #ligne1 {
+    flex-direction: column;
+    text-align: left;
+  }
 }

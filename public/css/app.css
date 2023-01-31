@@ -54,6 +54,29 @@
   font-weight: bold;
 }
 
+@-webkit-keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: rgb(154, 0, 0);
+  }
+  100% {
+    background-color: rgb(154, 0, 0);
+  }
+}
+
+@keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: rgb(154, 0, 0);
+  }
+  100% {
+    background-color: rgb(154, 0, 0);
+  }
+}
 .container {
   padding-inline: 150px;
 }
@@ -173,6 +196,17 @@ nav button {
   font-weight: bold;
 }
 
+@keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: rgb(154, 0, 0);
+  }
+  100% {
+    background-color: rgb(154, 0, 0);
+  }
+}
 #home {
   background-color: rgba(159, 159, 159, 0.21);
   padding-block: 60px;
@@ -269,6 +303,17 @@ nav button {
   font-weight: bold;
 }
 
+@keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: rgb(154, 0, 0);
+  }
+  100% {
+    background-color: rgb(154, 0, 0);
+  }
+}
 #About {
   padding-top: 50px;
   margin-bottom: 50px;
@@ -420,6 +465,17 @@ nav button {
   font-weight: bold;
 }
 
+@keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: rgb(154, 0, 0);
+  }
+  100% {
+    background-color: rgb(154, 0, 0);
+  }
+}
 #why {
   padding-block: 50px;
   display: flex;
@@ -562,6 +618,17 @@ nav button {
   font-weight: bold;
 }
 
+@keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: rgb(154, 0, 0);
+  }
+  100% {
+    background-color: rgb(154, 0, 0);
+  }
+}
 #Menu {
   margin-top: 70px;
 }
@@ -689,6 +756,17 @@ nav button {
   font-weight: bold;
 }
 
+@keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: rgb(154, 0, 0);
+  }
+  100% {
+    background-color: rgb(154, 0, 0);
+  }
+}
 #testmonial {
   margin-block: 70px;
   padding-inline: 350px;
@@ -821,6 +899,17 @@ nav button {
   font-weight: bold;
 }
 
+@keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: rgb(154, 0, 0);
+  }
+  100% {
+    background-color: rgb(154, 0, 0);
+  }
+}
 #Events #contain-carousel2 {
   display: flex;
   justify-content: center;
@@ -967,6 +1056,17 @@ nav button {
   font-weight: bold;
 }
 
+@keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: rgb(154, 0, 0);
+  }
+  100% {
+    background-color: rgb(154, 0, 0);
+  }
+}
 #Chefs {
   background-color: rgba(159, 159, 159, 0.21);
   padding-block: 50px;
@@ -1099,11 +1199,21 @@ nav button {
   font-weight: bold;
 }
 
+@keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: rgb(154, 0, 0);
+  }
+  100% {
+    background-color: rgb(154, 0, 0);
+  }
+}
 #Reservation {
   margin-block: 70px;
 }
 #Reservation .contain-form {
-  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -1124,7 +1234,7 @@ nav button {
 }
 #Reservation .contain-form div:last-child ul li textarea {
   margin-left: 20px;
-  width: 800px;
+  width: 92.5%;
   border: 1px solid rgba(128, 128, 128, 0.42);
   margin-top: 15px;
   height: 150px;
@@ -1141,18 +1251,6 @@ nav button {
 #Reservation .contain-form div:last-child ul li button:hover {
   -webkit-animation: hoverB alternate 0.7s infinite;
           animation: hoverB alternate 0.7s infinite;
-}
-
-@-webkit-keyframes hoverB {
-  0% {
-    background-color: red;
-  }
-  50% {
-    background-color: rgb(154, 0, 0);
-  }
-  100% {
-    background-color: rgb(154, 0, 0);
-  }
 }
 
 @keyframes hoverB {
@@ -1222,6 +1320,17 @@ nav button {
   font-weight: bold;
 }
 
+@keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: rgb(154, 0, 0);
+  }
+  100% {
+    background-color: rgb(154, 0, 0);
+  }
+}
 #Gallery {
   background-color: rgba(159, 159, 159, 0.21);
   padding-block: 50px;
@@ -1418,6 +1527,17 @@ nav button {
   font-weight: bold;
 }
 
+@keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: rgb(154, 0, 0);
+  }
+  100% {
+    background-color: rgb(154, 0, 0);
+  }
+}
 #bas-contact {
   display: flex;
   justify-content: center;
@@ -1551,6 +1671,17 @@ nav button {
   font-weight: bold;
 }
 
+@keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: rgb(154, 0, 0);
+  }
+  100% {
+    background-color: rgb(154, 0, 0);
+  }
+}
 .back-modal {
   background-color: rgba(0, 0, 0, 0.509);
   position: fixed;
@@ -1651,6 +1782,98 @@ nav button {
     width: 450px;
     margin-top: 30px;
   }
+  .contain-form {
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 20px;
+  }
+  .contain-form div:nth-child(1) {
+    display: none;
+  }
+  .contain-form div:last-child {
+    padding-block: 20px;
+    width: 60% !important;
+    background: url(../../../public/img/reservation.jpg);
+    background-size: cover;
+  }
+  .contain-form div:last-child input {
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+  .contain-form div:last-child textarea {
+    margin-left: 0 !important;
+  }
+  #Gallery .contain-carousel3 {
+    width: 520px !important;
+  }
+  #Gallery .contain-carousel3 .carou3 {
+    -webkit-animation: carou3 25s linear infinite;
+            animation: carou3 25s linear infinite;
+  }
+  #Gallery .contain-carousel3 .carou3:hover {
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+  }
+  @-webkit-keyframes carou3 {
+    0% {
+      transform: translateX(0%);
+    }
+    16% {
+      transform: translateX(-50%);
+    }
+    32% {
+      transform: translateX(-100%);
+    }
+    48% {
+      transform: translateX(-150%);
+    }
+    64% {
+      transform: translateX(-200%);
+    }
+    80% {
+      transform: translateX(-250%);
+    }
+    100% {
+      transform: translateX(-350%);
+    }
+  }
+  @keyframes carou3 {
+    0% {
+      transform: translateX(0%);
+    }
+    16% {
+      transform: translateX(-50%);
+    }
+    32% {
+      transform: translateX(-100%);
+    }
+    48% {
+      transform: translateX(-150%);
+    }
+    64% {
+      transform: translateX(-200%);
+    }
+    80% {
+      transform: translateX(-250%);
+    }
+    100% {
+      transform: translateX(-350%);
+    }
+  }
+  #Gallery .contain-carousel3 .carou3 div:first-child {
+    margin-left: 0 !important;
+  }
+  #Gallery button {
+    display: none;
+  }
+  #bas-contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  #ligne1 {
+    flex-direction: column;
+    text-align: left;
+  }
 }
 @font-face {
   font-family: "heat";
@@ -1708,6 +1931,17 @@ nav button {
   font-weight: bold;
 }
 
+@keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: rgb(154, 0, 0);
+  }
+  100% {
+    background-color: rgb(154, 0, 0);
+  }
+}
 @font-face {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
@@ -1764,6 +1998,17 @@ nav button {
   font-weight: bold;
 }
 
+@keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: rgb(154, 0, 0);
+  }
+  100% {
+    background-color: rgb(154, 0, 0);
+  }
+}
 footer {
   margin-top: 70px;
   padding: 30px;
