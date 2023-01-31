@@ -769,7 +769,7 @@ nav button {
   width: 100%;
   transition: 0.2s;
 }
-#Events #contain-carousel2 #carou2 #slider2 div:nth-child(1) {
+#Events #contain-carousel2 #carou2 #slider2 .cust:nth-child(1) {
   width: 350px;
   height: 450px;
   flex-shrink: 0;
@@ -839,6 +839,7 @@ nav button {
   border-radius: 100%;
   margin-inline: 2.1px;
   border: none;
+  cursor: pointer;
 }
 #Events .butt-carousel2 button:focus {
   background-color: rgb(112, 221, 196);

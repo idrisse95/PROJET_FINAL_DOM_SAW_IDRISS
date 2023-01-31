@@ -15,7 +15,7 @@
                 width: 100%;
                 transition: 0.2s;
 
-                div:nth-child(1){
+                .cust:nth-child(1){
                     width: 350px;
                     height: 450px;
                     flex-shrink: 0;
@@ -97,6 +97,7 @@
             border-radius: 100%;
             margin-inline: 2.10px;
             border: none;
+            cursor: pointer;
 
             &:focus {
                 background-color: $vert;
