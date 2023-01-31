@@ -67,6 +67,12 @@
                     font-weight: bold;
                     font-size: 20px;
                 }
+                li:last-child{
+                    font-style: italic;
+                }
+                li{
+                    margin-top: 10px;
+                }
 
             }
         }

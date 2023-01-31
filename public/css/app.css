@@ -984,6 +984,12 @@ nav button {
   font-weight: bold;
   font-size: 20px;
 }
+#Chefs .carte-chefs div ul li:last-child {
+  font-style: italic;
+}
+#Chefs .carte-chefs div ul li {
+  margin-top: 10px;
+}
 #Chefs .carte-chefs div:nth-child(2) {
   background: url(../../../public/img/chefs/chefs-2.jpg);
   background-size: 100%;
