@@ -69,6 +69,7 @@ header {
   position: fixed;
   width: 100%;
   z-index: 9999999999999;
+  top: 0;
 }
 
 nav {
@@ -169,6 +170,7 @@ nav button {
   color: rgb(60, 60, 60);
   display: flex;
   justify-content: space-between;
+  margin-top: 100px;
 }
 #home ul li:first-child {
   font-family: "heat";
@@ -1162,6 +1164,24 @@ nav button {
 
 .mt {
   margin-top: 10px;
+}
+
+.contain-form {
+  display: flex;
+  justify-content: center;
+}
+.contain-form div:first-child {
+  width: 20%;
+}
+.contain-form div:last-child {
+  background-color: rgba(151, 151, 151, 0.126);
+  width: 80%;
+}
+.contain-form div:last-child ul li input {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 250px;
+  height: 40px;
 }
 
 @font-face {

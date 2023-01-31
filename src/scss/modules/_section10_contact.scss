@@ -1,1 +1,25 @@
 @import "./variable.scss";
+
+
+
+.contain-form{
+    display: flex;
+    justify-content: center;
+    div:first-child{
+        width: 20%;
+    }
+    div:last-child{
+        background-color: rgba(151, 151, 151, 0.126);
+        width: 80%;
+        ul{
+            li{
+                input{
+                    margin-left: 20px;
+                    margin-top: 20px;
+                    width: 250px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+}
