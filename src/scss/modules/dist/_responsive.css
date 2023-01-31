@@ -22,4 +22,15 @@
     text-align: center;
     margin-top: 30px;
   }
+
+  #why {
+    flex-direction: column;
+  }
+  #why #miam {
+    width: 80%;
+  }
+  #why div {
+    margin-top: 30px;
+    width: 65%;
+  }
 }
