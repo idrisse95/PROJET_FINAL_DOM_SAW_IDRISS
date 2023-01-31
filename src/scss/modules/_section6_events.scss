@@ -1,47 +1,79 @@
 @import "./variable.scss";
 
 
-#Events{
-    #contain-carousel2{
+#Events {
+    #contain-carousel2 {
         display: flex;
         justify-content: center;
-        #carou2{
+
+        #carou2 {
             overflow: hidden;
-            width: 630px;
-            #slider2{
+            width: 1080px;
+
+            #slider2 {
                 display: flex;
                 width: 100%;
                 transition: 0.2s;
-                div{
-                    width: 200px;
-                    height: 300px;
+
+                div:nth-child(1){
+                    width: 350px;
+                    height: 450px;
                     flex-shrink: 0;
-                    margin-inline: 5px;
-                    
+                    margin-left: 0;
+                    background: url(../../../public/img/events-1.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
                 }
-                div{
-                    background-color: blue;
+
+                .cust {
+                    width: 350px;
+                    height: 450px;
+                    flex-shrink: 0;
+                   margin-left: 10px;
+                    background: url(../../../public/img/events-1.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
                 }
-                .cost{}
-                .priv{}
-                .burth{}
+
+                .priv {
+                    width: 350px;
+                    height: 450px;
+                    flex-shrink: 0;
+                    margin-left: 10px;
+                    background: url(../../../public/img/events-2.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+
+                .birth {
+                    width: 350px;
+                    height: 450px;
+                    flex-shrink: 0;
+                    margin-left: 10px;
+                    background: url(../../../public/img/events-3.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
 
             }
         }
     }
-    .butt-carousel2{
+
+    .butt-carousel2 {
         margin-top: 20px;
         margin-bottom: 200px;
-        button{
+
+        button {
             width: 10px;
             height: 10px;
             border-radius: 100%;
-            margin-inline: 2.5px;
+            margin-inline: 2.10px;
             border: none;
-            &:focus{
+
+            &:focus {
                 background-color: $vert;
             }
-            
+
         }
     }
 }
