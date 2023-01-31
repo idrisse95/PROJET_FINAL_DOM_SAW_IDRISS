@@ -5,7 +5,7 @@
     #contain-carousel2 {
         display: flex;
         justify-content: center;
-
+        margin-top: 50px;
         #carou2 {
             overflow: hidden;
             width: 1080px;
@@ -20,7 +20,7 @@
                     height: 450px;
                     flex-shrink: 0;
                     margin-left: 0;
-                    background: url(../../../public/img/events-1.jpg);
+                    background:linear-gradient(rgba(0, 0, 0, 0.516),rgba(0, 0, 0, 0.543)), url(../../../public/img/events-1.jpg);
                     background-size: cover;
                     background-repeat: no-repeat;
                 }
@@ -30,7 +30,7 @@
                     height: 450px;
                     flex-shrink: 0;
                    margin-left: 10px;
-                    background: url(../../../public/img/events-1.jpg);
+                    background:linear-gradient(rgba(0, 0, 0, 0.516),rgba(0, 0, 0, 0.543)), url(../../../public/img/events-1.jpg);
                     background-size: cover;
                     background-repeat: no-repeat;
                 }
@@ -40,7 +40,7 @@
                     height: 450px;
                     flex-shrink: 0;
                     margin-left: 10px;
-                    background: url(../../../public/img/events-2.jpg);
+                    background:linear-gradient(rgba(0, 0, 0, 0.516),rgba(0, 0, 0, 0.543)), url(../../../public/img/events-2.jpg);
                     background-size: cover;
                     background-repeat: no-repeat;
                 }
@@ -50,9 +50,27 @@
                     height: 450px;
                     flex-shrink: 0;
                     margin-left: 10px;
-                    background: url(../../../public/img/events-3.jpg);
+                    background: linear-gradient(rgba(0, 0, 0, 0.516),rgba(0, 0, 0, 0.543)), url(../../../public/img/events-3.jpg);
                     background-size: cover;
                     background-repeat: no-repeat;
+                }
+                div{
+                    div{
+                        ul{
+                            color: white;
+                            li:nth-child(1){
+                                font-weight: bold;
+                                font-size: 18px;
+                            }
+                            li:nth-child(2){
+                                font-weight: bold;
+                                font-size: 20px;
+                            }
+                            li:nth-child(3){
+                                font-size: 15px;
+                            }
+                        }
+                    }
                 }
 
             }

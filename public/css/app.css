@@ -758,6 +758,7 @@ nav button {
 #Events #contain-carousel2 {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 #Events #contain-carousel2 #carou2 {
   overflow: hidden;
@@ -773,7 +774,7 @@ nav button {
   height: 450px;
   flex-shrink: 0;
   margin-left: 0;
-  background: url(../../../public/img/events-1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.516), rgba(0, 0, 0, 0.543)), url(../../../public/img/events-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -782,7 +783,7 @@ nav button {
   height: 450px;
   flex-shrink: 0;
   margin-left: 10px;
-  background: url(../../../public/img/events-1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.516), rgba(0, 0, 0, 0.543)), url(../../../public/img/events-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -791,7 +792,7 @@ nav button {
   height: 450px;
   flex-shrink: 0;
   margin-left: 10px;
-  background: url(../../../public/img/events-2.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.516), rgba(0, 0, 0, 0.543)), url(../../../public/img/events-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -800,9 +801,23 @@ nav button {
   height: 450px;
   flex-shrink: 0;
   margin-left: 10px;
-  background: url(../../../public/img/events-3.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.516), rgba(0, 0, 0, 0.543)), url(../../../public/img/events-3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+#Events #contain-carousel2 #carou2 #slider2 div div ul {
+  color: white;
+}
+#Events #contain-carousel2 #carou2 #slider2 div div ul li:nth-child(1) {
+  font-weight: bold;
+  font-size: 18px;
+}
+#Events #contain-carousel2 #carou2 #slider2 div div ul li:nth-child(2) {
+  font-weight: bold;
+  font-size: 20px;
+}
+#Events #contain-carousel2 #carou2 #slider2 div div ul li:nth-child(3) {
+  font-size: 15px;
 }
 #Events .butt-carousel2 {
   margin-top: 20px;
