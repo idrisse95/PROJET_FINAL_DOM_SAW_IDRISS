@@ -110,6 +110,7 @@ nav button {
   letter-spacing: 1px;
   border: none;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 #sp1 {
