@@ -766,15 +766,30 @@ nav button {
 #Events #contain-carousel2 #carou2 #slider2 {
   display: flex;
   width: 100%;
+  transition: 0.2s;
 }
 #Events #contain-carousel2 #carou2 #slider2 div {
   width: 200px;
   height: 300px;
   flex-shrink: 0;
-  margin-left: 10px;
+  margin-inline: 5px;
 }
-#Events #contain-carousel2 #carou2 #slider2 div:nth-child(even) {
+#Events #contain-carousel2 #carou2 #slider2 div {
   background-color: blue;
+}
+#Events .butt-carousel2 {
+  margin-top: 20px;
+  margin-bottom: 200px;
+}
+#Events .butt-carousel2 button {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-inline: 2.5px;
+  border: none;
+}
+#Events .butt-carousel2 button:focus {
+  background-color: rgb(112, 221, 196);
 }
 
 @font-face {

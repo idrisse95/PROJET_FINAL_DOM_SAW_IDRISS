@@ -11,16 +11,33 @@
             #slider2{
                 display: flex;
                 width: 100%;
+                transition: 0.2s;
                 div{
                     width: 200px;
                     height: 300px;
                     flex-shrink: 0;
-                    margin-left: 10px;
+                    margin-inline: 5px;
+                    
                 }
-                div:nth-child(even){
+                div{
                     background-color: blue;
                 }
             }
+        }
+    }
+    .butt-carousel2{
+        margin-top: 20px;
+        margin-bottom: 200px;
+        button{
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            margin-inline: 2.5px;
+            border: none;
+            &:focus{
+                background-color: $vert;
+            }
+            
         }
     }
 }
