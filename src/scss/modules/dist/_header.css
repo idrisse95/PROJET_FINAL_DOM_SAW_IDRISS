@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "heat";
+  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
+}
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: #70ddc4 !important;
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: #ffd900;
+}
+
+.heat {
+  font-family: "heat";
+}
+
+.f2 {
+  font-size: 35px;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+.container {
+  padding-inline: 150px;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 9999999999999;
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 20px;
+}
+nav div:first-child {
+  font-weight: bold;
+  font-size: 20px;
+}
+nav div:first-child span {
+  color: #70ddc4;
+}
+nav ul {
+  display: flex;
+  font-weight: bold;
+  color: gray;
+}
+nav ul li:first-child {
+  color: black;
+  border-bottom: solid 3px #70ddc4;
+}
+nav ul li {
+  margin-left: 20px;
+  padding-bottom: 5px;
+}
+nav button {
+  background-color: #70ddc4;
+  color: white;
+  padding: 10px 15px;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 20px;
+}
+
+#sp1 {
+  margin-left: 5px;
+}
