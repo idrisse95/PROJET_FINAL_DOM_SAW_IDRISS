@@ -1625,6 +1625,9 @@ nav button {
   #Menu .carte .items img {
     width: 400px !important;
   }
+  #testmonial {
+    padding-inline: 50px !important;
+  }
 }
 @font-face {
   font-family: "heat";
