@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "heat";
+  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
+}
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: #70ddc4 !important;
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: #ffd900;
+}
+
+.heat {
+  font-family: "heat";
+}
+
+.f2 {
+  font-size: 35px;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+.bd {
+  font-weight: bold;
+}
+
+#Gallery {
+  background-color: rgba(159, 159, 159, 0.21);
+  padding-block: 100px;
+}
+#Gallery #tout {
+  display: flex;
+  justify-content: center;
+}
+#Gallery #tout .contain-carousel2 {
+  text-align: center;
+  overflow: hidden;
+  width: 1350px;
+}
+#Gallery #tout .contain-carousel2 .carou2 {
+  display: flex;
+  width: 100%;
+}
+#Gallery #tout .contain-carousel2 .carou2 div {
+  flex-shrink: 0;
+}
+#Gallery #tout .contain-carousel2 .carou2 div:nth-child(1) {
+  background: url(../../../public/img/gallery/gallery-1.jpg);
+  width: 250px;
+  height: 200px;
+  margin-inline: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Gallery #tout .contain-carousel2 .carou2 div:nth-child(2) {
+  background: url(../../../public/img/gallery/gallery-2.jpg);
+  width: 250px;
+  height: 200px;
+  margin-inline: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Gallery #tout .contain-carousel2 .carou2 div:nth-child(3) {
+  background: url(../../../public/img/gallery/gallery-3.jpg);
+  width: 250px;
+  height: 200px;
+  margin-inline: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Gallery #tout .contain-carousel2 .carou2 div:nth-child(4) {
+  background: url(../../../public/img/gallery/gallery-4.jpg);
+  width: 250px;
+  height: 200px;
+  margin-inline: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Gallery #tout .contain-carousel2 .carou2 div:nth-child(5) {
+  background: url(../../../public/img/gallery/gallery-5.jpg);
+  width: 250px;
+  height: 200px;
+  margin-inline: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Gallery #tout .contain-carousel2 .carou2 div:nth-child(6) {
+  background: url(../../../public/img/gallery/gallery-6.jpg);
+  width: 250px;
+  height: 200px;
+  margin-inline: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Gallery #tout .contain-carousel2 .carou2 div:nth-child(7) {
+  background: url(../../../public/img/gallery/gallery-7.jpg);
+  width: 250px;
+  height: 200px;
+  margin-inline: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#Gallery #tout .contain-carousel2 .carou2 div:nth-child(8) {
+  background: url(../../../public/img/gallery/gallery-8.jpg);
+  width: 250px;
+  height: 200px;
+  margin-inline: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
