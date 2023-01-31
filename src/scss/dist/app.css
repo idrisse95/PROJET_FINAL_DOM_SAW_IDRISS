@@ -7,7 +7,7 @@
 }
 
 .vert {
-  color: rgb(112, 221, 196) !important;
+  color: #70ddc4 !important;
 }
 
 .gris {
@@ -35,7 +35,7 @@
 }
 
 .jaune {
-  color: rgb(255, 217, 0);
+  color: #ffd900;
 }
 
 .heat {
@@ -88,7 +88,7 @@ nav div:first-child {
   font-size: 20px;
 }
 nav div:first-child span {
-  color: rgb(112, 221, 196);
+  color: #70ddc4;
 }
 nav ul {
   display: flex;
@@ -97,14 +97,14 @@ nav ul {
 }
 nav ul li:first-child {
   color: black;
-  border-bottom: solid 3px rgb(112, 221, 196);
+  border-bottom: solid 3px #70ddc4;
 }
 nav ul li {
   margin-left: 20px;
   padding-bottom: 5px;
 }
 nav button {
-  background-color: rgb(112, 221, 196);
+  background-color: #70ddc4;
   color: white;
   padding: 10px 15px;
   letter-spacing: 1px;
@@ -125,7 +125,7 @@ nav button {
 }
 
 .vert {
-  color: rgb(112, 221, 196) !important;
+  color: #70ddc4 !important;
 }
 
 .gris {
@@ -153,7 +153,7 @@ nav button {
 }
 
 .jaune {
-  color: rgb(255, 217, 0);
+  color: #ffd900;
 }
 
 .heat {
@@ -175,7 +175,7 @@ nav button {
 #home {
   background-color: rgba(159, 159, 159, 0.21);
   padding-block: 60px;
-  color: rgb(60, 60, 60);
+  color: #3c3c3c;
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
@@ -189,7 +189,7 @@ nav button {
   margin-top: 15px;
 }
 #home #buttHome button:first-child {
-  background-color: rgb(112, 221, 196);
+  background-color: #70ddc4;
   color: white;
   padding: 10px 15px;
   letter-spacing: 1px;
@@ -204,8 +204,8 @@ nav button {
   background-color: transparent;
 }
 #home #buttHome button:last-child i {
-  color: rgb(112, 221, 196);
-  border: solid 1px rgb(112, 221, 196);
+  color: #70ddc4;
+  border: solid 1px #70ddc4;
   padding: 7px;
   border-radius: 100%;
   font-size: 12px;
@@ -221,7 +221,7 @@ nav button {
 }
 
 .vert {
-  color: rgb(112, 221, 196) !important;
+  color: #70ddc4 !important;
 }
 
 .gris {
@@ -249,7 +249,7 @@ nav button {
 }
 
 .jaune {
-  color: rgb(255, 217, 0);
+  color: #ffd900;
 }
 
 .heat {
@@ -285,7 +285,7 @@ nav button {
   font-size: 25px;
 }
 #About .titre li:last-child span {
-  color: rgb(96, 218, 165);
+  color: #60daa5;
 }
 #About .book {
   display: flex;
@@ -310,7 +310,7 @@ nav button {
   font-size: 18px;
 }
 #About .book .bookTable div ul li:last-child {
-  color: rgb(112, 221, 196);
+  color: #70ddc4;
   margin-top: 5px;
   font-size: 19px;
 }
@@ -318,7 +318,7 @@ nav button {
   margin-left: 50px;
 }
 #About .book .bookTexte i {
-  color: rgb(112, 221, 196);
+  color: #70ddc4;
 }
 #About .book .bookTexte ul li:first-child {
   font-style: italic;
@@ -345,9 +345,9 @@ nav button {
   padding: 10px;
 }
 #About .book .bookTexte ul #fondLi .containB i {
-  border: solid 1px rgb(0, 119, 255);
+  border: solid 1px #0077ff;
   padding: 25px;
-  background-color: rgb(112, 221, 196);
+  background-color: #70ddc4;
   color: white;
   font-size: 12Px;
   border-radius: 50%;
@@ -372,7 +372,7 @@ nav button {
 }
 
 .vert {
-  color: rgb(112, 221, 196) !important;
+  color: #70ddc4 !important;
 }
 
 .gris {
@@ -400,7 +400,7 @@ nav button {
 }
 
 .jaune {
-  color: rgb(255, 217, 0);
+  color: #ffd900;
 }
 
 .heat {
@@ -429,7 +429,7 @@ nav button {
 #why #miam {
   width: 50%;
   height: 250px;
-  background-color: rgb(112, 221, 196);
+  background-color: #70ddc4;
   color: white;
   padding: 20px;
   text-align: left;
@@ -467,7 +467,7 @@ nav button {
   background-color: rgba(254, 86, 86, 0.119);
   padding: 20px;
   border-radius: 50%;
-  color: rgb(112, 221, 196);
+  color: #70ddc4;
 }
 #why div ul li:nth-child(2) {
   font-weight: bold;
@@ -486,8 +486,7 @@ nav button {
 }
 #score #scoreD {
   width: 100%;
-  -webkit-backdrop-filter: brightness(50%);
-          backdrop-filter: brightness(50%);
+  backdrop-filter: brightness(50%);
   display: flex;
   justify-content: space-around;
   color: white;
@@ -502,7 +501,7 @@ nav button {
 }
 #score #scoreD div ul li:last-child {
   font-weight: 200;
-  color: rgb(214, 214, 214);
+  color: #d6d6d6;
 }
 
 @font-face {
@@ -514,7 +513,7 @@ nav button {
 }
 
 .vert {
-  color: rgb(112, 221, 196) !important;
+  color: #70ddc4 !important;
 }
 
 .gris {
@@ -542,7 +541,7 @@ nav button {
 }
 
 .jaune {
-  color: rgb(255, 217, 0);
+  color: #ffd900;
 }
 
 .heat {
@@ -576,7 +575,7 @@ nav button {
   font-size: 35px;
 }
 #Menu .titreMenu div:last-child span {
-  color: rgb(112, 221, 196);
+  color: #70ddc4;
 }
 #Menu #choix {
   display: flex;
@@ -590,14 +589,14 @@ nav button {
   cursor: pointer;
 }
 #Menu #choix div:focus {
-  color: rgb(112, 221, 196);
+  color: #70ddc4;
 }
 #Menu .choixMenu {
   text-align: center;
   margin-top: 20px;
 }
 #Menu .choixMenu div:nth-child(2) {
-  color: rgb(112, 221, 196);
+  color: #70ddc4;
   font-weight: bold;
   font-size: 20px;
 }
@@ -622,14 +621,14 @@ nav button {
   color: black;
 }
 #Menu .carte .items div:last-child {
-  color: rgb(112, 221, 196);
+  color: #70ddc4;
   font-weight: bold;
   font-size: 20px;
 }
 
 .color {
-  color: rgb(112, 221, 196);
-  border-bottom: 2px solid rgb(112, 221, 196) !important;
+  color: #70ddc4;
+  border-bottom: 2px solid #70ddc4 !important;
 }
 
 @font-face {
@@ -641,7 +640,7 @@ nav button {
 }
 
 .vert {
-  color: rgb(112, 221, 196) !important;
+  color: #70ddc4 !important;
 }
 
 .gris {
@@ -669,7 +668,7 @@ nav button {
 }
 
 .jaune {
-  color: rgb(255, 217, 0);
+  color: #ffd900;
 }
 
 .heat {
@@ -708,7 +707,7 @@ nav button {
   font-family: "heat";
 }
 #testmonial #titre-testi li:last-child span {
-  color: rgb(112, 221, 196);
+  color: #70ddc4;
 }
 #testmonial #contain-carousel1 {
   overflow: hidden;
@@ -726,7 +725,7 @@ nav button {
   flex-shrink: 0;
 }
 #testmonial #contain-carousel1 .carou1 .c .b {
-  border-left: solid 3px rgb(112, 221, 196);
+  border-left: solid 3px #70ddc4;
   padding-left: 15px;
 }
 #testmonial #contain-carousel1 .carou1 .c div:first-child {
@@ -756,12 +755,12 @@ nav button {
   height: 10px;
   border-radius: 100%;
   border: none;
-  background-color: rgb(205, 205, 205);
+  background-color: #cdcdcd;
   margin-left: 5px;
   cursor: pointer;
 }
 #testmonial .buttonCarou button:focus {
-  background-color: rgb(112, 221, 196);
+  background-color: #70ddc4;
 }
 
 @font-face {
@@ -773,7 +772,7 @@ nav button {
 }
 
 .vert {
-  color: rgb(112, 221, 196) !important;
+  color: #70ddc4 !important;
 }
 
 .gris {
@@ -801,7 +800,7 @@ nav button {
 }
 
 .jaune {
-  color: rgb(255, 217, 0);
+  color: #ffd900;
 }
 
 .heat {
@@ -885,14 +884,14 @@ nav button {
 #Events #contain-carousel2 #carou2 #slider2 div div ul li:nth-child(2) {
   font-weight: bold;
   font-size: 20px;
-  border-bottom: rgb(112, 221, 196) solid 3px;
+  border-bottom: #70ddc4 solid 3px;
   width: 10%;
   padding-bottom: 5px;
   margin-top: 5px;
 }
 #Events #contain-carousel2 #carou2 #slider2 div div ul li:nth-child(3) {
   margin-top: 5px;
-  color: rgb(205, 205, 205);
+  color: #cdcdcd;
 }
 #Events .butt-carousel2 {
   margin-top: 20px;
@@ -907,7 +906,7 @@ nav button {
   cursor: pointer;
 }
 #Events .butt-carousel2 button:focus {
-  background-color: rgb(112, 221, 196);
+  background-color: #70ddc4;
 }
 
 @font-face {
@@ -919,7 +918,7 @@ nav button {
 }
 
 .vert {
-  color: rgb(112, 221, 196) !important;
+  color: #70ddc4 !important;
 }
 
 .gris {
@@ -947,7 +946,7 @@ nav button {
 }
 
 .jaune {
-  color: rgb(255, 217, 0);
+  color: #ffd900;
 }
 
 .heat {
@@ -1051,7 +1050,7 @@ nav button {
 }
 
 .vert {
-  color: rgb(112, 221, 196) !important;
+  color: #70ddc4 !important;
 }
 
 .gris {
@@ -1079,7 +1078,7 @@ nav button {
 }
 
 .jaune {
-  color: rgb(255, 217, 0);
+  color: #ffd900;
 }
 
 .heat {
@@ -1131,27 +1130,14 @@ nav button {
 #Reservation .contain-form div:last-child ul li button {
   margin-top: 5px;
   padding: 10px 35px;
-  background-color: rgb(112, 221, 196);
+  background-color: #70ddc4;
   color: white;
   border: none;
   border-radius: 20px;
   transition: 0.5s;
 }
 #Reservation .contain-form div:last-child ul li button:hover {
-  -webkit-animation: hoverB alternate 0.7s infinite;
-          animation: hoverB alternate 0.7s infinite;
-}
-
-@-webkit-keyframes hoverB {
-  0% {
-    background-color: red;
-  }
-  50% {
-    background-color: rgb(154, 0, 0);
-  }
-  100% {
-    background-color: rgb(154, 0, 0);
-  }
+  animation: hoverB alternate 0.7s infinite;
 }
 
 @keyframes hoverB {
@@ -1159,10 +1145,10 @@ nav button {
     background-color: red;
   }
   50% {
-    background-color: rgb(154, 0, 0);
+    background-color: #9a0000;
   }
   100% {
-    background-color: rgb(154, 0, 0);
+    background-color: #9a0000;
   }
 }
 @font-face {
@@ -1174,7 +1160,7 @@ nav button {
 }
 
 .vert {
-  color: rgb(112, 221, 196) !important;
+  color: #70ddc4 !important;
 }
 
 .gris {
@@ -1202,7 +1188,7 @@ nav button {
 }
 
 .jaune {
-  color: rgb(255, 217, 0);
+  color: #ffd900;
 }
 
 .heat {
@@ -1230,7 +1216,7 @@ nav button {
 }
 
 .vert {
-  color: rgb(112, 221, 196) !important;
+  color: #70ddc4 !important;
 }
 
 .gris {
@@ -1258,7 +1244,7 @@ nav button {
 }
 
 .jaune {
-  color: rgb(255, 217, 0);
+  color: #ffd900;
 }
 
 .heat {
@@ -1292,7 +1278,7 @@ nav button {
 }
 #bas-contact .adress i {
   color: white;
-  background-color: rgb(112, 221, 196);
+  background-color: #70ddc4;
   border-radius: 50%;
   padding: 10px;
 }
@@ -1347,7 +1333,7 @@ nav button {
 }
 #Contact button {
   padding: 10px 25px;
-  background-color: rgb(112, 221, 196);
+  background-color: #70ddc4;
   border-radius: 20px;
   border: none;
   color: white;
@@ -1363,7 +1349,7 @@ nav button {
 }
 
 .vert {
-  color: rgb(112, 221, 196) !important;
+  color: #70ddc4 !important;
 }
 
 .gris {
@@ -1391,7 +1377,7 @@ nav button {
 }
 
 .jaune {
-  color: rgb(255, 217, 0);
+  color: #ffd900;
 }
 
 .heat {
@@ -1419,7 +1405,7 @@ nav button {
 }
 
 .vert {
-  color: rgb(112, 221, 196) !important;
+  color: #70ddc4 !important;
 }
 
 .gris {
@@ -1447,7 +1433,7 @@ nav button {
 }
 
 .jaune {
-  color: rgb(255, 217, 0);
+  color: #ffd900;
 }
 
 .heat {
@@ -1469,7 +1455,7 @@ nav button {
 footer {
   margin-top: 70px;
   padding: 30px;
-  background-color: rgb(31, 31, 38);
+  background-color: #1f1f26;
   color: gray;
 }
 footer .follow div:first-child {
