@@ -50,6 +50,10 @@
   margin-top: 10px;
 }
 
+.bd {
+  font-weight: bold;
+}
+
 .container {
   padding-inline: 150px;
 }
@@ -68,7 +72,7 @@ a {
 header {
   position: fixed;
   width: 100%;
-  z-index: 9999999999999;
+  z-index: 99999;
   top: 0;
 }
 

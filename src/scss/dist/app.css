@@ -1396,6 +1396,69 @@ nav button {
   font-weight: bold;
 }
 
+#contain-modal {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  height: 400px;
+}
+
+@font-face {
+  font-family: "heat";
+  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
+}
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: #70ddc4 !important;
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: #ffd900;
+}
+
+.heat {
+  font-family: "heat";
+}
+
+.f2 {
+  font-size: 35px;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+.bd {
+  font-weight: bold;
+}
+
 @font-face {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
