@@ -1628,6 +1628,23 @@ nav button {
   #testmonial {
     padding-inline: 50px !important;
   }
+  #Events #contain-carousel2 #carou2 {
+    width: 400px !important;
+  }
+  #Events #contain-carousel2 #carou2 #slider2 {
+    width: 100% !important;
+    flex-direction: column;
+    justify-content: center !important;
+  }
+  #Events #contain-carousel2 #carou2 #slider2 div {
+    margin-left: 0 !important;
+    margin-top: 50px;
+    background-size: 100% !important;
+    width: 100% !important;
+  }
+  #Events #contain-carousel2 #carou2 #slider2 .nn {
+    display: none !important;
+  }
 }
 @font-face {
   font-family: "heat";
