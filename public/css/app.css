@@ -498,6 +498,10 @@ nav button {
   margin-right: 10px;
   border-bottom: solid 2px gray;
   padding-bottom: 5px;
+  cursor: pointer;
+}
+#Menu #choix div:focus {
+  color: rgb(112, 221, 196);
 }
 #Menu .choixMenu {
   text-align: center;
@@ -650,6 +654,9 @@ nav button {
   background-color: rgb(205, 205, 205);
   margin-left: 5px;
   cursor: pointer;
+}
+#testmonial .buttonCarou button:focus {
+  background-color: rgb(112, 221, 196);
 }
 
 @font-face {

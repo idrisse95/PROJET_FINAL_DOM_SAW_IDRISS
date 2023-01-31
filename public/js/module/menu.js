@@ -272,7 +272,7 @@ let choixd = document.querySelectorAll('#choix div')
 
 choixd.forEach(element => {
     element.addEventListener('click',()=>{
-        element.classList.add('color')
+        
         carte.style.opacity="0"
         cartel2.style.opacity="0"
         titre1.style.opacity="0"

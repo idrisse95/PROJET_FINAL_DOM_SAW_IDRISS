@@ -93,6 +93,9 @@
             background-color: rgb(205, 205, 205);
             margin-left: 5px;
             cursor: pointer;
+            &:focus{
+                background-color: $vert;
+            }
         }
     }
 
