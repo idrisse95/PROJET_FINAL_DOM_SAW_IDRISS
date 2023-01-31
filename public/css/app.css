@@ -1472,6 +1472,21 @@ footer {
   background-color: rgb(31, 31, 38);
   color: gray;
 }
+footer .follow div:first-child {
+  font-size: 16px;
+  color: white;
+}
+footer .follow ul {
+  margin-top: 10px;
+}
+footer .follow ul li {
+  margin-right: 25px;
+}
+footer .follow ul li i {
+  border: solid 1px rgba(128, 128, 128, 0.244);
+  padding: 10px;
+  border-radius: 50%;
+}
 footer ul {
   margin: 0;
 }
@@ -1487,6 +1502,12 @@ footer .items-footer div:nth-child(2) ul li:nth-child(1) {
   font-size: 16px;
   margin-bottom: 7px;
   font-weight: bold;
+}
+footer .logo-footer {
+  display: flex;
+}
+footer .logo-footer li {
+  margin-right: 5px;
 }
 footer .hrF {
   width: 100%;
