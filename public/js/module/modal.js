@@ -4,7 +4,7 @@ let fermer = document.getElementById('fermer')
 let modal = document.getElementById('contain-modal')
 let button = document.getElementById('butt-modal')
 
-butt.addEventListener('click',()=>{
+button.addEventListener('click',()=>{
     modal.style.display = 'block'
 })
 
