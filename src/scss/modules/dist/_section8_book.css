@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "heat";
+  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
+}
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: #70ddc4 !important;
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: #ffd900;
+}
+
+.heat {
+  font-family: "heat";
+}
+
+.f2 {
+  font-size: 35px;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+#Reservation {
+  margin-block: 70px;
+}
+#Reservation .contain-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#Reservation .contain-form div:first-child {
+  width: 20%;
+}
+#Reservation .contain-form div:last-child {
+  background-color: rgba(151, 151, 151, 0.126);
+  text-align: center;
+  width: 60%;
+}
+#Reservation .contain-form div:last-child ul li input {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 250px;
+  height: 40px;
+  border: 1px solid rgba(128, 128, 128, 0.42);
+}
+#Reservation .contain-form div:last-child ul li textarea {
+  margin-left: 20px;
+  width: 800px;
+  border: 1px solid rgba(128, 128, 128, 0.42);
+  margin-top: 15px;
+  height: 150px;
+}
+#Reservation .contain-form div:last-child ul li button {
+  margin-top: 5px;
+  padding: 10px 35px;
+  background-color: #70ddc4;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+#Reservation .contain-form div:last-child ul li button:hover {
+  animation: hoverB alternate 0.7s infinite;
+}
+
+@keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: #9a0000;
+  }
+  100% {
+    background-color: #9a0000;
+  }
+}

@@ -50,41 +50,39 @@
   margin-top: 10px;
 }
 
-#Reservation {
-  margin-block: 70px;
+.bd {
+  font-weight: bold;
 }
-#Reservation .contain-form {
-  width: 100%;
+
+#bas-contact {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
-#Reservation .contain-form div:first-child {
-  width: 20%;
-}
-#Reservation .contain-form div:last-child {
-  background-color: rgba(151, 151, 151, 0.126);
-  text-align: center;
-  width: 60%;
-}
-#Reservation .contain-form div:last-child ul li input {
-  margin-left: 20px;
-  margin-top: 20px;
-  width: 250px;
-  height: 40px;
-  border: 1px solid rgba(128, 128, 128, 0.42);
-}
-#Reservation .contain-form div:last-child ul li textarea {
-  margin-left: 20px;
-  width: 800px;
-  border: 1px solid rgba(128, 128, 128, 0.42);
+#bas-contact .adress {
+  display: flex;
+  margin-right: 15px;
+  width: 100%;
   margin-top: 15px;
-  height: 150px;
+  background-color: rgba(159, 159, 159, 0.21);
+  padding: 20px;
 }
-#Reservation .contain-form div:last-child ul li button {
-  margin-top: 5px;
-  padding: 10px 35px;
-  background-color: #70ddc4;
+#bas-contact .adress i {
   color: white;
-  border: none;
-  border-radius: 20px;
+  background-color: #70ddc4;
+  border-radius: 50%;
+  padding: 10px;
+}
+#bas-contact .adress ul {
+  margin: 0;
+}
+#bas-contact .adress ul li:nth-child(1) {
+  font-size: 16px;
+  font-weight: bold;
+}
+#bas-contact .adress ul li {
+  margin-left: 15px;
+}
+#bas-contact .adress:nth-child(2) {
+  margin-right: 0;
 }

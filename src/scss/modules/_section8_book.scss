@@ -1,1 +1,62 @@
 @import "./variable.scss";
+
+#Reservation{
+    margin-block: 70px;
+.contain-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    div:first-child{
+        width: 20%;
+    }
+    div:last-child{
+        background-color: rgba(151, 151, 151, 0.126);
+        text-align: center;
+        width: 60%;
+        ul{
+            
+            li{
+                input{
+                    margin-left: 20px;
+                    margin-top: 20px;
+                    width: 250px;
+                    height: 40px;
+                    border: 1px solid rgba(128, 128, 128, 0.42);
+                }
+                textarea{
+                    margin-left: 20px;
+                    width: 800px;
+                    border: 1px solid rgba(128, 128, 128, 0.42);
+                    margin-top: 15px;
+                    height: 150px;
+                }
+                button{
+                    margin-top: 5px;
+                    padding: 10px 35px;
+                    background-color: $vert;
+                    color: white;
+                    border: none;
+                    border-radius: 20px;
+                    transition: 0.5s;
+                    &:hover{
+                        animation: hoverB alternate 0.7s infinite;
+                    }
+                }
+            }
+        }
+    }
+}
+}
+
+@keyframes hoverB {
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: rgb(154, 0, 0);
+
+    }
+    100%{
+        background-color: rgb(154, 0, 0);
+    }
+}

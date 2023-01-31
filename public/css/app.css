@@ -50,6 +50,10 @@
   margin-top: 10px;
 }
 
+.bd {
+  font-weight: bold;
+}
+
 .container {
   padding-inline: 150px;
 }
@@ -164,6 +168,10 @@ nav button {
   margin-top: 10px;
 }
 
+.bd {
+  font-weight: bold;
+}
+
 #home {
   background-color: rgba(159, 159, 159, 0.21);
   padding-block: 60px;
@@ -254,6 +262,10 @@ nav button {
 
 .mt {
   margin-top: 10px;
+}
+
+.bd {
+  font-weight: bold;
 }
 
 #About {
@@ -403,6 +415,10 @@ nav button {
   margin-top: 10px;
 }
 
+.bd {
+  font-weight: bold;
+}
+
 #why {
   padding-block: 50px;
   display: flex;
@@ -541,6 +557,10 @@ nav button {
   margin-top: 10px;
 }
 
+.bd {
+  font-weight: bold;
+}
+
 #Menu {
   margin-top: 70px;
 }
@@ -662,6 +682,10 @@ nav button {
 
 .mt {
   margin-top: 10px;
+}
+
+.bd {
+  font-weight: bold;
 }
 
 #testmonial {
@@ -790,6 +814,10 @@ nav button {
 
 .mt {
   margin-top: 10px;
+}
+
+.bd {
+  font-weight: bold;
 }
 
 #Events #contain-carousel2 {
@@ -934,6 +962,10 @@ nav button {
   margin-top: 10px;
 }
 
+.bd {
+  font-weight: bold;
+}
+
 #Chefs {
   background-color: rgba(159, 159, 159, 0.21);
   padding-block: 50px;
@@ -1062,108 +1094,8 @@ nav button {
   margin-top: 10px;
 }
 
-@font-face {
-  font-family: "heat";
-  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
-}
-.upp {
-  text-transform: uppercase;
-}
-
-.vert {
-  color: rgb(112, 221, 196) !important;
-}
-
-.gris {
-  color: gray;
-}
-
-.f1 {
-  font-size: 11px;
-}
-
-.center {
-  text-align: center;
-}
-
-.flex {
-  display: flex;
-}
-
-.jc {
-  justify-content: center;
-}
-
-.red {
-  color: red;
-}
-
-.jaune {
-  color: rgb(255, 217, 0);
-}
-
-.heat {
-  font-family: "heat";
-}
-
-.f2 {
-  font-size: 35px;
-}
-
-.mt {
-  margin-top: 10px;
-}
-
-@font-face {
-  font-family: "heat";
-  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
-}
-.upp {
-  text-transform: uppercase;
-}
-
-.vert {
-  color: rgb(112, 221, 196) !important;
-}
-
-.gris {
-  color: gray;
-}
-
-.f1 {
-  font-size: 11px;
-}
-
-.center {
-  text-align: center;
-}
-
-.flex {
-  display: flex;
-}
-
-.jc {
-  justify-content: center;
-}
-
-.red {
-  color: red;
-}
-
-.jaune {
-  color: rgb(255, 217, 0);
-}
-
-.heat {
-  font-family: "heat";
-}
-
-.f2 {
-  font-size: 35px;
-}
-
-.mt {
-  margin-top: 10px;
+.bd {
+  font-weight: bold;
 }
 
 #Reservation {
@@ -1203,6 +1135,90 @@ nav button {
   color: white;
   border: none;
   border-radius: 20px;
+  transition: 0.5s;
+}
+#Reservation .contain-form div:last-child ul li button:hover {
+  -webkit-animation: hoverB alternate 0.7s infinite;
+          animation: hoverB alternate 0.7s infinite;
+}
+
+@-webkit-keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: rgb(154, 0, 0);
+  }
+  100% {
+    background-color: rgb(154, 0, 0);
+  }
+}
+
+@keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: rgb(154, 0, 0);
+  }
+  100% {
+    background-color: rgb(154, 0, 0);
+  }
+}
+@font-face {
+  font-family: "heat";
+  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
+}
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: rgb(112, 221, 196) !important;
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: rgb(255, 217, 0);
+}
+
+.heat {
+  font-family: "heat";
+}
+
+.f2 {
+  font-size: 35px;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+.bd {
+  font-weight: bold;
 }
 
 @font-face {
@@ -1257,6 +1273,43 @@ nav button {
   margin-top: 10px;
 }
 
+.bd {
+  font-weight: bold;
+}
+
+#bas-contact {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#bas-contact .adress {
+  display: flex;
+  margin-right: 15px;
+  width: 100%;
+  margin-top: 15px;
+  background-color: rgba(159, 159, 159, 0.21);
+  padding: 20px;
+}
+#bas-contact .adress i {
+  color: white;
+  background-color: rgb(112, 221, 196);
+  border-radius: 50%;
+  padding: 10px;
+}
+#bas-contact .adress ul {
+  margin: 0;
+}
+#bas-contact .adress ul li:nth-child(1) {
+  font-size: 16px;
+  font-weight: bold;
+}
+#bas-contact .adress ul li {
+  margin-left: 15px;
+}
+#bas-contact .adress:nth-child(2) {
+  margin-right: 0;
+}
+
 @font-face {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
@@ -1307,6 +1360,66 @@ nav button {
 
 .mt {
   margin-top: 10px;
+}
+
+.bd {
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "heat";
+  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
+}
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: rgb(112, 221, 196) !important;
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: rgb(255, 217, 0);
+}
+
+.heat {
+  font-family: "heat";
+}
+
+.f2 {
+  font-size: 35px;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+.bd {
+  font-weight: bold;
 }
 
 body {
