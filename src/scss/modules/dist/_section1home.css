@@ -93,10 +93,3 @@
   font-size: 12px;
   margin-right: 5px;
 }
-
-@media screen and (max-width: 769px) {
-  #home {
-    display: block;
-    text-align: center;
-  }
-}

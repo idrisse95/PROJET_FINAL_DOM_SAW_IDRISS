@@ -213,12 +213,6 @@ nav button {
   margin-right: 5px;
 }
 
-@media screen and (max-width: 769px) {
-  #home {
-    display: block;
-    text-align: center;
-  }
-}
 @font-face {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
@@ -1587,6 +1581,24 @@ nav button {
   display: none;
 }
 
+@media screen and (max-width: 769px) {
+  .container {
+    padding-inline: 50px;
+  }
+  #home {
+    flex-direction: column;
+    text-align: center;
+  }
+  #home img {
+    margin-top: 50px;
+  }
+  .book {
+    flex-direction: column;
+  }
+  .book .bookTable {
+    width: 100% !important;
+  }
+}
 @font-face {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
