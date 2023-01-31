@@ -33,6 +33,56 @@
         
     }
     .adress:nth-child(2){
+        display: flex;
         margin-right: 0;
+    }
+
+    
+}
+
+#Contact{
+    .input-contact{
+        padding: 20px;
+        background-color: white;
+        box-shadow:  0 0 5px 5px rgba(123, 123, 123, 0.121);
+        margin-top: 20px;
+        input{
+            border:1px solid rgba(128, 128, 128, 0.283);
+            height: 30px;
+        }
+        
+        div:nth-child(1){
+            display: flex;
+            justify-content: space-around;
+            input{
+                width: 47.5%;
+            }
+        }
+        div:nth-child(2){
+            display: flex;
+            justify-content: center;
+            input{
+                width:97.5%;
+                margin-top: 15px;
+            }
+        }
+        div:nth-child(3){
+            display: flex;
+            justify-content: center;
+            textarea{
+                width:97.5%;
+                margin-top: 15px;
+                border:1px solid rgba(128, 128, 128, 0.283);
+            }
+        }
+       
+    }
+    button{
+        padding: 10px 25px;
+        background-color: $vert;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        margin-top: 15px;
     }
 }
