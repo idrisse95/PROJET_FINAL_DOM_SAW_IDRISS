@@ -1,1 +1,20 @@
 @import "./variable.scss";
+
+
+#carou2{
+    overflow: hidden;
+    width: 630px;
+    #slider2{
+        display: flex;
+        
+        width: 100%
+        div{
+            width: 200px;
+            flex-shrink: 0;
+            margin-left: 10px;
+        }
+        div:nth-child(add){
+            background-color: blue;
+        }
+    }
+}

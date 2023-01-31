@@ -755,6 +755,19 @@ nav button {
   font-size: 35px;
 }
 
+#carou2 {
+  overflow: hidden;
+  width: 630px;
+}
+#carou2 #slider2 {
+  display: flex;
+  width: 100% div;
+  width-width: 200px;
+  width-flex-shrink: 0;
+  width-margin-left: 10px;
+  div: nth-child(add);
+}
+
 @font-face {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
