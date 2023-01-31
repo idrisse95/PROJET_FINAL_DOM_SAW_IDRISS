@@ -1,1 +1,36 @@
 @import "./variable.scss";
+
+
+
+#Chefs{
+    background-color: $gris;
+    .carte-chefs{
+        display: flex;
+        justify-content: center;
+        
+        div{
+            width: 350px;
+            height: 500px;
+            background: url(../../../public/img/chefs/chefs-1.jpg),no-repeat;
+            display: flex;
+            align-items: end;
+            padding: 0;
+           ul{
+            background-color: white;
+            margin-bottom: 0;
+            padding: 20px 10px;
+            li:nth-child(1){
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+           }
+        }
+        div:nth-child(2){
+            background: url(../../../public/img/chefs/chefs-2.jpg);
+        }
+        div:nth-child(3){
+            background: url(../../../public/img/chefs/chefs-3.jpg);
+        }
+    }
+}

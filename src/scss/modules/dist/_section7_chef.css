@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "heat";
+  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
+}
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: #70ddc4 !important;
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: #ffd900;
+}
+
+.heat {
+  font-family: "heat";
+}
+
+.f2 {
+  font-size: 35px;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+#Chefs {
+  background-color: rgba(159, 159, 159, 0.21);
+}
+#Chefs .carte-chefs {
+  display: flex;
+  justify-content: center;
+}
+#Chefs .carte-chefs div {
+  width: 350px;
+  height: 500px;
+  background: url(../../../public/img/chefs/chefs-1.jpg), no-repeat;
+  display: flex;
+  align-items: end;
+  padding: 0;
+}
+#Chefs .carte-chefs div ul {
+  background-color: white;
+  margin-bottom: 0;
+  padding: 20px 10px;
+}
+#Chefs .carte-chefs div ul li:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px;
+}
+#Chefs .carte-chefs div:nth-child(2) {
+  background: url(../../../public/img/chefs/chefs-2.jpg);
+}
+#Chefs .carte-chefs div:nth-child(3) {
+  background: url(../../../public/img/chefs/chefs-3.jpg);
+}

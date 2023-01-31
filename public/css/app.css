@@ -46,6 +46,10 @@
   font-size: 35px;
 }
 
+.mt {
+  margin-top: 10px;
+}
+
 .container {
   padding-inline: 150px;
 }
@@ -148,6 +152,10 @@ nav button {
   font-size: 35px;
 }
 
+.mt {
+  margin-top: 10px;
+}
+
 #home {
   background-color: rgba(159, 159, 159, 0.21);
   padding-block: 60px;
@@ -233,6 +241,10 @@ nav button {
 
 .f2 {
   font-size: 35px;
+}
+
+.mt {
+  margin-top: 10px;
 }
 
 #About {
@@ -378,6 +390,10 @@ nav button {
   font-size: 35px;
 }
 
+.mt {
+  margin-top: 10px;
+}
+
 #why {
   padding-block: 50px;
   display: flex;
@@ -512,6 +528,10 @@ nav button {
   font-size: 35px;
 }
 
+.mt {
+  margin-top: 10px;
+}
+
 #Menu {
   margin-top: 70px;
 }
@@ -629,6 +649,10 @@ nav button {
 
 .f2 {
   font-size: 35px;
+}
+
+.mt {
+  margin-top: 10px;
 }
 
 #testmonial {
@@ -753,6 +777,10 @@ nav button {
 
 .f2 {
   font-size: 35px;
+}
+
+.mt {
+  margin-top: 10px;
 }
 
 #Events #contain-carousel2 {
@@ -893,100 +921,39 @@ nav button {
   font-size: 35px;
 }
 
-@font-face {
-  font-family: "heat";
-  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
-}
-.upp {
-  text-transform: uppercase;
+.mt {
+  margin-top: 10px;
 }
 
-.vert {
-  color: rgb(112, 221, 196) !important;
+#Chefs {
+  background-color: rgba(159, 159, 159, 0.21);
 }
-
-.gris {
-  color: gray;
-}
-
-.f1 {
-  font-size: 11px;
-}
-
-.center {
-  text-align: center;
-}
-
-.flex {
+#Chefs .carte-chefs {
   display: flex;
-}
-
-.jc {
   justify-content: center;
 }
-
-.red {
-  color: red;
-}
-
-.jaune {
-  color: rgb(255, 217, 0);
-}
-
-.heat {
-  font-family: "heat";
-}
-
-.f2 {
-  font-size: 35px;
-}
-
-@font-face {
-  font-family: "heat";
-  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
-}
-.upp {
-  text-transform: uppercase;
-}
-
-.vert {
-  color: rgb(112, 221, 196) !important;
-}
-
-.gris {
-  color: gray;
-}
-
-.f1 {
-  font-size: 11px;
-}
-
-.center {
-  text-align: center;
-}
-
-.flex {
+#Chefs .carte-chefs div {
+  width: 350px;
+  height: 500px;
+  background: url(../../../public/img/chefs/chefs-1.jpg), no-repeat;
   display: flex;
+  align-items: end;
+  padding: 0;
 }
-
-.jc {
-  justify-content: center;
+#Chefs .carte-chefs div ul {
+  background-color: white;
+  margin-bottom: 0;
+  padding: 20px 10px;
 }
-
-.red {
-  color: red;
+#Chefs .carte-chefs div ul li:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px;
 }
-
-.jaune {
-  color: rgb(255, 217, 0);
+#Chefs .carte-chefs div:nth-child(2) {
+  background: url(../../../public/img/chefs/chefs-2.jpg);
 }
-
-.heat {
-  font-family: "heat";
-}
-
-.f2 {
-  font-size: 35px;
+#Chefs .carte-chefs div:nth-child(3) {
+  background: url(../../../public/img/chefs/chefs-3.jpg);
 }
 
 @font-face {
@@ -1037,52 +1004,8 @@ nav button {
   font-size: 35px;
 }
 
-@font-face {
-  font-family: "heat";
-  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
-}
-.upp {
-  text-transform: uppercase;
-}
-
-.vert {
-  color: rgb(112, 221, 196) !important;
-}
-
-.gris {
-  color: gray;
-}
-
-.f1 {
-  font-size: 11px;
-}
-
-.center {
-  text-align: center;
-}
-
-.flex {
-  display: flex;
-}
-
-.jc {
-  justify-content: center;
-}
-
-.red {
-  color: red;
-}
-
-.jaune {
-  color: rgb(255, 217, 0);
-}
-
-.heat {
-  font-family: "heat";
-}
-
-.f2 {
-  font-size: 35px;
+.mt {
+  margin-top: 10px;
 }
 
 @font-face {
@@ -1131,6 +1054,166 @@ nav button {
 
 .f2 {
   font-size: 35px;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+@font-face {
+  font-family: "heat";
+  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
+}
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: rgb(112, 221, 196) !important;
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: rgb(255, 217, 0);
+}
+
+.heat {
+  font-family: "heat";
+}
+
+.f2 {
+  font-size: 35px;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+@font-face {
+  font-family: "heat";
+  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
+}
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: rgb(112, 221, 196) !important;
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: rgb(255, 217, 0);
+}
+
+.heat {
+  font-family: "heat";
+}
+
+.f2 {
+  font-size: 35px;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+@font-face {
+  font-family: "heat";
+  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
+}
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: rgb(112, 221, 196) !important;
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: rgb(255, 217, 0);
+}
+
+.heat {
+  font-family: "heat";
+}
+
+.f2 {
+  font-size: 35px;
+}
+
+.mt {
+  margin-top: 10px;
 }
 
 body {

@@ -52,7 +52,7 @@ choixMenu.appendChild(titre1)
 choixMenu.appendChild(titre2)
 
 titre1.textContent="MENU"
-titre2.textContent="Dinner"
+titre2.textContent="Startes"
 
 choixMenu.setAttribute('class','choixMenu')
 
