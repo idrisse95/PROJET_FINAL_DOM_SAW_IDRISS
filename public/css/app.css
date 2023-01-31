@@ -1166,22 +1166,43 @@ nav button {
   margin-top: 10px;
 }
 
-.contain-form {
+#Reservation {
+  margin-block: 70px;
+}
+#Reservation .contain-form {
+  width: 100%;
   display: flex;
   justify-content: center;
 }
-.contain-form div:first-child {
+#Reservation .contain-form div:first-child {
   width: 20%;
 }
-.contain-form div:last-child {
+#Reservation .contain-form div:last-child {
   background-color: rgba(151, 151, 151, 0.126);
-  width: 80%;
+  text-align: center;
+  width: 60%;
 }
-.contain-form div:last-child ul li input {
+#Reservation .contain-form div:last-child ul li input {
   margin-left: 20px;
   margin-top: 20px;
   width: 250px;
   height: 40px;
+  border: 1px solid rgba(128, 128, 128, 0.42);
+}
+#Reservation .contain-form div:last-child ul li textarea {
+  margin-left: 20px;
+  width: 800px;
+  border: 1px solid rgba(128, 128, 128, 0.42);
+  margin-top: 15px;
+  height: 150px;
+}
+#Reservation .contain-form div:last-child ul li button {
+  margin-top: 5px;
+  padding: 10px 35px;
+  background-color: rgb(112, 221, 196);
+  color: white;
+  border: none;
+  border-radius: 20px;
 }
 
 @font-face {
