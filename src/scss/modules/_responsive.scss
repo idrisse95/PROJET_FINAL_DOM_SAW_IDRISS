@@ -1,32 +1,33 @@
-
-
-
-
-
-
-@media screen and (max-width:769px){
-    .container{
+@media screen and (max-width:769px) {
+    body{
+        font-size: 1.3em;
+    }
+    .container {
         padding-inline: 50px;
     }
-    #home{
+
+    #home {
         flex-direction: column;
         text-align: center;
-        img{
+
+        img {
             margin-top: 50px;
         }
-    }   
-    
-    
+    }
+
+
 
     //ABOUT
 
-    .book{
+    .book {
         flex-direction: column;
-        .bookTable{
-            width: 100%!important;
+
+        .bookTable {
+            width: 100% !important;
         }
-        .bookTexte{
-            margin-left: 0!important;
+
+        .bookTexte {
+            margin-left: 0 !important;
             text-align: center;
             margin-top: 30px;
         }
@@ -34,14 +35,37 @@
 
     //WHY
 
-    #why{
+    #why {
         flex-direction: column;
-        #miam{
+
+        #miam {
             width: 80%;
         }
-        div{
+
+        div {
             margin-top: 30px;
             width: 65%;
+        }
+    }
+
+
+    //MENU
+
+    #Menu{
+      
+        .carte {
+        
+            flex-direction: column;
+            .items {
+                margin-top: 30px;
+                img {
+    
+                    width: 400px!important;
+    
+                }
+                
+              
+            }
         }
     }
 
