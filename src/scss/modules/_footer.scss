@@ -1,1 +1,13 @@
 @import "./variable.scss";
+
+
+footer {
+    padding: 30px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+
+    #ligne1 {
+        display: flex;
+        justify-content: center;
+    }
+}
