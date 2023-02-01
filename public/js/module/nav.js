@@ -15,7 +15,7 @@ button.addEventListener('click',()=>{
 
 
 
-let about = document.getElementById('About')
+let about = .getElementById('About')
 
 let aboutButt = document.querySelector('nav ul li:nth-child(2)')
 
