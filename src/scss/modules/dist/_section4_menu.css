@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "heat";
+  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
+}
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: #70ddc4 !important;
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: #ffd900;
+}
+
+.heat {
+  font-family: "heat";
+}
+
+.f2 {
+  font-size: 35px;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+.bd {
+  font-weight: bold;
+}
+
+@keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: #9a0000;
+  }
+  100% {
+    background-color: #9a0000;
+  }
+}
+#Menu {
+  margin-top: 70px;
+}
+#Menu .titreMenu {
+  text-align: center;
+}
+#Menu .titreMenu div:first-child {
+  margin-bottom: 10px;
+  color: gray;
+}
+#Menu .titreMenu div:last-child {
+  font-family: "heat";
+  font-size: 35px;
+}
+#Menu .titreMenu div:last-child span {
+  color: #70ddc4;
+}
+#Menu #choix {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#Menu #choix div {
+  margin-right: 10px;
+  border-bottom: solid 2px gray;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+#Menu #choix div:focus {
+  color: #70ddc4;
+}
+#Menu .choixMenu {
+  text-align: center;
+  margin-top: 20px;
+}
+#Menu .choixMenu div:nth-child(2) {
+  color: #70ddc4;
+  font-weight: bold;
+  font-size: 20px;
+}
+#Menu .carte {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+#Menu .carte .items {
+  text-align: center;
+}
+#Menu .carte .items img {
+  width: 200px !important;
+}
+#Menu .carte .items div {
+  color: gray;
+  margin-top: 10px;
+}
+#Menu .carte .items div:nth-child(2) {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+#Menu .carte .items div:last-child {
+  color: #70ddc4;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.color {
+  color: #70ddc4;
+  border-bottom: 2px solid #70ddc4 !important;
+}

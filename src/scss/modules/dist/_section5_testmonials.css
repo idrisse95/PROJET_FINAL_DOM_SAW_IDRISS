@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "heat";
+  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
+}
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: #70ddc4 !important;
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: #ffd900;
+}
+
+.heat {
+  font-family: "heat";
+}
+
+.f2 {
+  font-size: 35px;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+.bd {
+  font-weight: bold;
+}
+
+@keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: #9a0000;
+  }
+  100% {
+    background-color: #9a0000;
+  }
+}
+#testmonial {
+  margin-block: 70px;
+  padding-inline: 350px;
+  padding-block: 70px;
+  background-color: rgba(159, 159, 159, 0.21);
+}
+#testmonial #titre-testi {
+  text-align: center;
+}
+#testmonial #titre-testi li:first-child {
+  text-transform: uppercase;
+  font-size: 11px;
+  color: gray;
+}
+#testmonial #titre-testi li:last-child {
+  margin-top: 10px;
+  font-size: 35px;
+  font-family: "heat";
+}
+#testmonial #titre-testi li:last-child span {
+  color: #70ddc4;
+}
+#testmonial #contain-carousel1 {
+  overflow: hidden;
+  height: 300px;
+}
+#testmonial #contain-carousel1 .carou1 {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  transition: 0.3s;
+  margin-top: 50px;
+}
+#testmonial #contain-carousel1 .carou1 .c {
+  width: 100%;
+  flex-shrink: 0;
+}
+#testmonial #contain-carousel1 .carou1 .c .b {
+  border-left: solid 3px #70ddc4;
+  padding-left: 15px;
+}
+#testmonial #contain-carousel1 .carou1 .c div:first-child {
+  width: 70%;
+  padding-right: 100px;
+}
+#testmonial #contain-carousel1 .carou1 .c ul li {
+  margin-top: 10px;
+}
+#testmonial #contain-carousel1 .carou1 .c ul li:nth-child(3) {
+  margin-top: 0px;
+}
+#testmonial #contain-carousel1 .carou1 .c ul li:first-child {
+  font-style: italic;
+  font-size: 15px;
+}
+#testmonial #contain-carousel1 .carou1 .c img {
+  border-radius: 50%;
+  border: solid 4px white;
+}
+#testmonial .buttonCarou {
+  display: flex;
+  justify-content: center;
+}
+#testmonial .buttonCarou button {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: none;
+  background-color: #cdcdcd;
+  margin-left: 5px;
+  cursor: pointer;
+}
+#testmonial .buttonCarou button:focus {
+  background-color: #70ddc4;
+}

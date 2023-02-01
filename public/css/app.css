@@ -1875,6 +1875,56 @@ nav button {
     text-align: left;
   }
 }
+@media screen and (max-width: 426px) {
+  .container {
+    padding-inline: 25px !important;
+  }
+  #home img {
+    width: 300px !important;
+  }
+  #scoreD {
+    flex-direction: column;
+    align-items: center;
+  }
+  #scoreD div {
+    margin-top: 40px;
+  }
+  .bookTable div {
+    padding: 2.5px 20px !important;
+  }
+  .bookTexte {
+    font-size: 14px;
+  }
+  #Menu .carte .items img {
+    width: 200px !important;
+  }
+  #testmonial {
+    padding-inline: 20px !important;
+    text-align: center;
+  }
+  #testmonial #contain-carousel1 {
+    height: 500px;
+  }
+  #testmonial #contain-carousel1 .flex {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  #Chefs .carte-chefs div {
+    width: 300px !important;
+  }
+  .contain-form div:last-child {
+    width: 80% !important;
+  }
+  .contain-form div:last-child input {
+    width: 80% !important;
+    margin-left: 0 !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  #home img {
+    width: 200px !important;
+  }
+}
 @font-face {
   font-family: "heat";
   src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
