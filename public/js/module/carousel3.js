@@ -7,6 +7,9 @@ let butt6 = document.getElementById('butt6-3')
 let butt7 = document.getElementById('butt7-3')
 let butt8 = document.getElementById('butt8-3')
 
+
+let div1 = document.querySelector('')
+
 // let div3 = document.querySelectorAll('#tout .carou3 div')
 // console.log(div3);
 // div3.forEach(element => {

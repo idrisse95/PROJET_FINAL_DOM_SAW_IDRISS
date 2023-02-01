@@ -7,7 +7,8 @@ var butt4 = document.getElementById('butt4-3');
 var butt5 = document.getElementById('butt5-3');
 var butt6 = document.getElementById('butt6-3');
 var butt7 = document.getElementById('butt7-3');
-var butt8 = document.getElementById('butt8-3'); // let div3 = document.querySelectorAll('#tout .carou3 div')
+var butt8 = document.getElementById('butt8-3');
+var div1 = document.querySelector(''); // let div3 = document.querySelectorAll('#tout .carou3 div')
 // console.log(div3);
 // div3.forEach(element => {
 //     console.log(document.element.clientWidth);

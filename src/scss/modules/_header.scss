@@ -21,13 +21,17 @@ a {
     color: unset;
 }
 
-header{
+header {
     position: fixed;
     width: 100%;
     z-index: 99999;
     top: 0;
+    overflow: hidden;
+
 }
+
 nav {
+
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -40,7 +44,7 @@ nav {
         font-size: 20px;
 
         span {
-            color:$vert;
+            color: $vert;
         }
     }
 
@@ -62,7 +66,7 @@ nav {
     }
 
     button {
-        background-color:$vert;
+        background-color: $vert;
         color: white;
         padding: 10px 15px;
         letter-spacing: 1px;
@@ -72,6 +76,50 @@ nav {
     }
 }
 
-#sp1{
-    margin-left: 5px;
+ 
+.nav-bug{
+    transform: translateX(0);
+}
+
+.span1{
+    transform: rotate(-45deg);
+}
+.span2{
+    transform: rotate(45deg);
+}
+.span3{
+    transform: rotate(-45deg);
+}
+
+
+
+
+
+body{
+    position: relative;
+}
+ 
+//hamburger
+
+
+.contain-hamburger{
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+#hamburger {
+    
+
+    div {
+        width: 40px;
+        height: 5px;
+        margin-bottom: 5px;
+        background-color: $vert;
+        border-radius: 20px;
+        transition: 0.5s;
+    }
 }
