@@ -1,4 +1,4 @@
-let butt =  document.getElementById('butt1-3') 
+let butt = document.getElementById('butt1-3')
 let butt2 = document.getElementById('butt2-3')
 let butt3 = document.getElementById('butt3-3')
 let butt4 = document.getElementById('butt4-3')
@@ -29,51 +29,51 @@ let divTotal = document.querySelectorAll('#tout .carou3 div')
 // });
 
 divTotal.forEach(element => {
-     
-
- 
-let carousel3 = document.querySelector('#tout .carou3')
-console.log(carousel3);
-
-butt.addEventListener('click',()=>{
-    carousel3.style.transform="translateX(-0%)"
-    div3.classList.add('divVert')
-    
-    
-})
- 
-
-butt2.addEventListener('click',()=>{
-    carousel3.style.transform="translateX(-20%)"
-    
-})
 
 
-butt3.addEventListener('click',()=>{
-    carousel3.style.transform="translateX(-40%)"
-})
 
-butt4.addEventListener('click',()=>{
-    carousel3.style.transform="translateX(-60%)"
-})
+    let carousel3 = document.querySelector('#tout .carou3')
+    console.log(carousel3);
 
-butt5.addEventListener('click',()=>{
-    carousel3.style.transform="translateX(-80%)"
-    
-})
-
-butt6.addEventListener('click',()=>{
-    carousel3.style.transform="translateX(-100%)"
-})
+    butt.addEventListener('click', () => {
+        carousel3.style.transform = "translateX(-0%)"
+        div3.classList.add('divVert')
 
 
-butt7.addEventListener('click',()=>{
-    carousel3.style.transform="translateX(-120%)"
-})
+    })
 
-butt8.addEventListener('click',()=>{
-    carousel3.style.transform="translateX(-140%)"
-})
 
-    
+    butt2.addEventListener('click', () => {
+        carousel3.style.transform = "translateX(-20%)"
+
+    })
+
+
+    butt3.addEventListener('click', () => {
+        carousel3.style.transform = "translateX(-40%)"
+    })
+
+    butt4.addEventListener('click', () => {
+        carousel3.style.transform = "translateX(-60%)"
+    })
+
+    butt5.addEventListener('click', () => {
+        carousel3.style.transform = "translateX(-80%)"
+
+    })
+
+    butt6.addEventListener('click', () => {
+        carousel3.style.transform = "translateX(-100%)"
+    })
+
+
+    butt7.addEventListener('click', () => {
+        carousel3.style.transform = "translateX(-120%)"
+    })
+
+    butt8.addEventListener('click', () => {
+        carousel3.style.transform = "translateX(-140%)"
+    })
+
+
 });

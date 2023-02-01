@@ -44,10 +44,32 @@ html {
     position: relative;
     transform: translateY(150px);
     opacity: 0;
-    transition: 2s all ease;
+    transition: 3s all ease;
 }
 
 .reveal.active {
     transform: translateY(0);
     opacity: 1;
+}
+
+
+
+//DARK
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+#dark-mode{
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+    cursor: pointer;
+    button{
+        border-radius: 50%;
+        padding: 20px;
+        background-color: transparent;
+       
+    }
 }

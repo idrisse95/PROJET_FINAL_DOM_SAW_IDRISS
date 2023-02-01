@@ -1,46 +1,50 @@
 @media screen and (max-width:769px) {
     body {
         font-size: 1.3em;
-       
-       
+
+
     }
 
 
-    .contain-hamburger{
+    .contain-hamburger {
         display: block;
-        
+
     }
-   
+
 
     //HEADER
 
-   
 
-    nav{
+
+    nav {
         flex-direction: column;
         align-items: center;
         transition: 0.2s;
         transform: translateX(100%);
-        
-        div:first-child{
+
+        div:first-child {
             font-size: 60px;
             letter-spacing: 4px;
-            
+
         }
-        ul{
+
+        ul {
             flex-direction: column;
             align-items: center;
             font-size: 40px;
-            li{
-                margin-left: 0!important;
+
+            li {
+                margin-left: 0 !important;
             }
         }
-        button{
+
+        button {
             font-size: 20px;
         }
-        #butt-header{
+
+        #butt-header {
             width: 100%;
-            text-align: center!important;
+            text-align: center !important;
         }
     }
 
@@ -83,12 +87,12 @@
 
         #miam {
             width: 80%;
-            
+
         }
 
-        div{
+        div {
             width: 80%;
-            margin-left: 0!important;
+            margin-left: 0 !important;
         }
 
         div {
@@ -156,7 +160,8 @@
             }
 
         }
-        button{
+
+        button {
             display: none;
         }
     }
@@ -185,7 +190,7 @@
         flex-direction: column;
         align-items: center;
         padding-inline: 20px;
-        
+
         div:nth-child(1) {
             display: none;
         }
@@ -199,14 +204,14 @@
             input {
                 border-radius: 5px;
                 padding-left: 10px;
-                width: 80%!important;
-                margin-left: 0!important;
+                width: 80% !important;
+                margin-left: 0 !important;
             }
 
             textarea {
                 margin-left: 0 !important;
                 padding-left: 10px;
-                width: 80%!important;
+                width: 80% !important;
             }
 
         }
@@ -222,32 +227,41 @@
 
             .carou3 {
                 animation: carou3 25s linear infinite;
-                &:hover{
+
+                &:hover {
                     animation-play-state: paused;
                 }
+
                 @keyframes carou3 {
-                    0%{
+                    0% {
                         transform: translateX(0%);
                     }
-                    16%{
+
+                    16% {
                         transform: translateX(-50%);
                     }
-                    32%{
+
+                    32% {
                         transform: translateX(-100%);
                     }
-                    48%{
+
+                    48% {
                         transform: translateX(-150%);
                     }
-                    64%{
+
+                    64% {
                         transform: translateX(-200%);
                     }
-                    80%{
+
+                    80% {
                         transform: translateX(-250%);
                     }
-                    100%{
+
+                    100% {
                         transform: translateX(-350%);
                     }
                 }
+
                 div:first-child {
                     margin-left: 0 !important;
                 }
@@ -266,19 +280,19 @@
     #bas-contact {
         flex-direction: column;
         align-items: center;
-        
+
     }
 
-     
+
 
     //FOOTER
 
-    #ligne1{
+    #ligne1 {
         flex-direction: column;
         text-align: left;
     }
 
-    .follow{
+    .follow {
         margin-top: 20px;
         margin-left: 5%;
     }
