@@ -59,7 +59,7 @@
     background-color: red;
   }
   50% {
-    background-color: #9a0000;
+    background-color: red;
   }
   100% {
     background-color: #9a0000;
@@ -110,10 +110,26 @@ nav ul {
 nav ul li:first-child {
   color: black;
   border-bottom: solid 3px #70ddc4;
+  padding-bottom: 5px;
 }
 nav ul li {
   margin-left: 20px;
-  padding-bottom: 5px;
+  transition: 0.4S;
+  overflow: hidden;
+}
+nav ul li:hover {
+  color: black;
+}
+nav ul li:hover .tes {
+  transform: translateX(0);
+}
+nav ul li .tes {
+  width: 100%;
+  height: 3px;
+  background-color: #70ddc4;
+  margin-top: 5px;
+  transition: 0.6s;
+  transform: translateX(-100%);
 }
 nav button {
   background-color: #70ddc4;
@@ -123,6 +139,10 @@ nav button {
   border: none;
   border-radius: 20px;
   cursor: pointer;
+  transition: 1s;
+}
+nav button:hover {
+  animation: hoverB alternate 0.7s infinite;
 }
 
 .nav-bug {

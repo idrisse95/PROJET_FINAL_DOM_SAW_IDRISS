@@ -12,3 +12,13 @@ button.addEventListener('click',()=>{
     span2.classList.toggle('span2')
     span3.classList.toggle('span3')
 })
+
+
+
+let about = document.getElementById('About')
+
+let aboutButt = document.querySelector('nav ul li:nth-child(2)')
+
+about.addEventListener('scroll', ()=>{
+aboutButt.style.display = 'none'
+})

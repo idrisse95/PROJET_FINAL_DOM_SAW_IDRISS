@@ -59,7 +59,7 @@
     background-color: red;
   }
   50% {
-    background-color: #9a0000;
+    background-color: red;
   }
   100% {
     background-color: #9a0000;
@@ -87,14 +87,17 @@
   justify-content: center;
   margin-top: 20px;
 }
-#Menu #choix div {
+#Menu #choix button {
+  border: none;
+  background-color: transparent;
   margin-right: 10px;
   border-bottom: solid 2px gray;
   padding-bottom: 5px;
   cursor: pointer;
 }
-#Menu #choix div:focus {
+#Menu #choix button:focus {
   color: #70ddc4;
+  border-bottom: 2px solid #70ddc4;
 }
 #Menu .choixMenu {
   text-align: center;

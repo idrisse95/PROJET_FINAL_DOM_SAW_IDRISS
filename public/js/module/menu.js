@@ -18,10 +18,10 @@ check.innerHTML = "Check Our <span>Miam Menu</span>"
 
 
 let choix = document.createElement('div')
-let un = document.createElement('div')
-let deux = document.createElement('div')
-let trois = document.createElement('div')
-let quatre = document.createElement('div')
+let un = document.createElement('button')
+let deux = document.createElement('button')
+let trois = document.createElement('button')
+let quatre = document.createElement('button')
 
 menu.appendChild(choix)
 
@@ -268,7 +268,7 @@ items6.appendChild(prix6)
 
 //CLICK MENU
 
-let choixd = document.querySelectorAll('#choix div')
+let choixd = document.querySelectorAll('#choix button')
 
 choixd.forEach(element => {
     element.addEventListener('click',()=>{

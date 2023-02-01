@@ -7,6 +7,10 @@
     width: 300px !important;
   }
 
+  article {
+    display: none !important;
+  }
+
   #scoreD {
     flex-direction: column;
     align-items: center;

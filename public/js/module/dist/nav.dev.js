@@ -11,3 +11,8 @@ button.addEventListener('click', function () {
   span2.classList.toggle('span2');
   span3.classList.toggle('span3');
 });
+var about = document.getElementById('About');
+var aboutButt = document.querySelector('nav ul li:nth-child(2)');
+about.addEventListener('scroll', function () {
+  aboutButt.style.display = 'none';
+});

@@ -59,7 +59,7 @@
     background-color: red;
   }
   50% {
-    background-color: rgb(154, 0, 0);
+    background-color: rgb(255, 0, 0);
   }
   100% {
     background-color: rgb(154, 0, 0);
@@ -71,7 +71,7 @@
     background-color: red;
   }
   50% {
-    background-color: rgb(154, 0, 0);
+    background-color: rgb(255, 0, 0);
   }
   100% {
     background-color: rgb(154, 0, 0);
@@ -122,10 +122,26 @@ nav ul {
 nav ul li:first-child {
   color: black;
   border-bottom: solid 3px rgb(112, 221, 196);
+  padding-bottom: 5px;
 }
 nav ul li {
   margin-left: 20px;
-  padding-bottom: 5px;
+  transition: 0.4S;
+  overflow: hidden;
+}
+nav ul li:hover {
+  color: black;
+}
+nav ul li:hover .tes {
+  transform: translateX(0);
+}
+nav ul li .tes {
+  width: 100%;
+  height: 3px;
+  background-color: rgb(112, 221, 196);
+  margin-top: 5px;
+  transition: 0.6s;
+  transform: translateX(-100%);
 }
 nav button {
   background-color: rgb(112, 221, 196);
@@ -135,6 +151,11 @@ nav button {
   border: none;
   border-radius: 20px;
   cursor: pointer;
+  transition: 1s;
+}
+nav button:hover {
+  -webkit-animation: hoverB alternate 0.7s infinite;
+          animation: hoverB alternate 0.7s infinite;
 }
 
 .nav-bug {
@@ -237,7 +258,7 @@ body {
     background-color: red;
   }
   50% {
-    background-color: rgb(154, 0, 0);
+    background-color: rgb(255, 0, 0);
   }
   100% {
     background-color: rgb(154, 0, 0);
@@ -267,6 +288,10 @@ body {
   border: none;
   border-radius: 20px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.153);
+}
+#home #buttHome button:first-child:hover {
+  -webkit-animation: hoverB alternate 0.7s infinite;
+          animation: hoverB alternate 0.7s infinite;
 }
 #home #buttHome button:last-child {
   margin-left: 10px;
@@ -344,7 +369,7 @@ body {
     background-color: red;
   }
   50% {
-    background-color: rgb(154, 0, 0);
+    background-color: rgb(255, 0, 0);
   }
   100% {
     background-color: rgb(154, 0, 0);
@@ -506,7 +531,7 @@ body {
     background-color: red;
   }
   50% {
-    background-color: rgb(154, 0, 0);
+    background-color: rgb(255, 0, 0);
   }
   100% {
     background-color: rgb(154, 0, 0);
@@ -541,6 +566,10 @@ body {
   border: none;
   color: white;
   border-radius: 20px;
+}
+#why #miam button:hover {
+  -webkit-animation: hoverB alternate 0.7s infinite;
+          animation: hoverB alternate 0.7s infinite;
 }
 #why div {
   background-color: white;
@@ -659,7 +688,7 @@ body {
     background-color: red;
   }
   50% {
-    background-color: rgb(154, 0, 0);
+    background-color: rgb(255, 0, 0);
   }
   100% {
     background-color: rgb(154, 0, 0);
@@ -687,14 +716,17 @@ body {
   justify-content: center;
   margin-top: 20px;
 }
-#Menu #choix div {
+#Menu #choix button {
+  border: none;
+  background-color: transparent;
   margin-right: 10px;
   border-bottom: solid 2px gray;
   padding-bottom: 5px;
   cursor: pointer;
 }
-#Menu #choix div:focus {
+#Menu #choix button:focus {
   color: rgb(112, 221, 196);
+  border-bottom: 2px solid rgb(112, 221, 196);
 }
 #Menu .choixMenu {
   text-align: center;
@@ -797,7 +829,7 @@ body {
     background-color: red;
   }
   50% {
-    background-color: rgb(154, 0, 0);
+    background-color: rgb(255, 0, 0);
   }
   100% {
     background-color: rgb(154, 0, 0);
@@ -940,7 +972,7 @@ body {
     background-color: red;
   }
   50% {
-    background-color: rgb(154, 0, 0);
+    background-color: rgb(255, 0, 0);
   }
   100% {
     background-color: rgb(154, 0, 0);
@@ -1097,7 +1129,7 @@ body {
     background-color: red;
   }
   50% {
-    background-color: rgb(154, 0, 0);
+    background-color: rgb(255, 0, 0);
   }
   100% {
     background-color: rgb(154, 0, 0);
@@ -1157,8 +1189,19 @@ body {
   background-color: white;
   margin-bottom: 0;
   padding: 20px 10px;
+  position: relative;
 }
-#Chefs .carte-chefs div ul li:nth-child(1) {
+#Chefs .carte-chefs div ul article {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  margin-inline: 0;
+}
+#Chefs .carte-chefs div ul article svg {
+  width: 100%;
+  height: 250px;
+}
+#Chefs .carte-chefs div ul li:nth-child(2) {
   font-weight: bold;
   font-size: 20px;
 }
@@ -1240,7 +1283,7 @@ body {
     background-color: red;
   }
   50% {
-    background-color: rgb(154, 0, 0);
+    background-color: rgb(255, 0, 0);
   }
   100% {
     background-color: rgb(154, 0, 0);
@@ -1361,7 +1404,7 @@ body {
     background-color: red;
   }
   50% {
-    background-color: rgb(154, 0, 0);
+    background-color: rgb(255, 0, 0);
   }
   100% {
     background-color: rgb(154, 0, 0);
@@ -1381,7 +1424,7 @@ body {
   text-align: center;
   overflow: hidden;
   width: 1350px;
-  padding-block: 5px;
+  padding-block: 20px;
 }
 #Gallery #tout .contain-carousel3 .carou3 {
   display: flex;
@@ -1503,7 +1546,7 @@ body {
 }
 
 .divVert {
-  padding: 4px;
+  transform: scale(1.1);
   border: 4px solid rgb(112, 221, 196);
 }
 
@@ -1568,7 +1611,7 @@ body {
     background-color: red;
   }
   50% {
-    background-color: rgb(154, 0, 0);
+    background-color: rgb(255, 0, 0);
   }
   100% {
     background-color: rgb(154, 0, 0);
@@ -1650,6 +1693,10 @@ body {
   color: white;
   margin-top: 15px;
 }
+#Contact button:hover {
+  -webkit-animation: hoverB alternate 0.7s infinite;
+          animation: hoverB alternate 0.7s infinite;
+}
 
 @font-face {
   font-family: "heat";
@@ -1712,7 +1759,7 @@ body {
     background-color: red;
   }
   50% {
-    background-color: rgb(154, 0, 0);
+    background-color: rgb(255, 0, 0);
   }
   100% {
     background-color: rgb(154, 0, 0);
@@ -1946,6 +1993,9 @@ body {
   #home img {
     width: 300px !important;
   }
+  article {
+    display: none !important;
+  }
   #scoreD {
     flex-direction: column;
     align-items: center;
@@ -2050,7 +2100,7 @@ body {
     background-color: red;
   }
   50% {
-    background-color: rgb(154, 0, 0);
+    background-color: rgb(255, 0, 0);
   }
   100% {
     background-color: rgb(154, 0, 0);
@@ -2117,7 +2167,7 @@ body {
     background-color: red;
   }
   50% {
-    background-color: rgb(154, 0, 0);
+    background-color: rgb(255, 0, 0);
   }
   100% {
     background-color: rgb(154, 0, 0);

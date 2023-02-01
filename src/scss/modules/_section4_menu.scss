@@ -29,13 +29,16 @@
         justify-content: center;
         margin-top: 20px;
 
-        div {
+        button {
+            border: none;
+            background-color: transparent;
             margin-right: 10px;
             border-bottom: solid 2px gray;
             padding-bottom: 5px;
             cursor: pointer;
             &:focus{
                 color: $vert;
+                border-bottom:2px solid $vert;
             }
         }
     }

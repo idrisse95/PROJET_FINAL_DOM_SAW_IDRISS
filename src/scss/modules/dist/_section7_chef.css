@@ -50,6 +50,21 @@
   margin-top: 10px;
 }
 
+.bd {
+  font-weight: bold;
+}
+
+@keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: #9a0000;
+  }
+  100% {
+    background-color: #9a0000;
+  }
+}
 #Chefs {
   background-color: rgba(159, 159, 159, 0.21);
   padding-block: 50px;
@@ -104,8 +119,19 @@
   background-color: white;
   margin-bottom: 0;
   padding: 20px 10px;
+  position: relative;
 }
-#Chefs .carte-chefs div ul li:nth-child(1) {
+#Chefs .carte-chefs div ul article {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  margin-inline: 0;
+}
+#Chefs .carte-chefs div ul article svg {
+  width: 100%;
+  height: 250px;
+}
+#Chefs .carte-chefs div ul li:nth-child(2) {
   font-weight: bold;
   font-size: 20px;
 }

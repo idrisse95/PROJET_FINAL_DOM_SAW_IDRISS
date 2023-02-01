@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "heat";
+  src: url(../../public/font/CookiesandmilkRegular-W64Y.ttf);
+}
+.upp {
+  text-transform: uppercase;
+}
+
+.vert {
+  color: #70ddc4 !important;
+}
+
+.gris {
+  color: gray;
+}
+
+.f1 {
+  font-size: 11px;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.jaune {
+  color: #ffd900;
+}
+
+.heat {
+  font-family: "heat";
+}
+
+.f2 {
+  font-size: 35px;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+.bd {
+  font-weight: bold;
+}
+
+@keyframes hoverB {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: #9a0000;
+  }
+  100% {
+    background-color: #9a0000;
+  }
+}
+#why {
+  padding-block: 50px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(159, 159, 159, 0.21);
+  font-size: 14px;
+}
+#why #miam {
+  width: 50%;
+  height: 250px;
+  background-color: #70ddc4;
+  color: white;
+  padding: 20px;
+  text-align: left;
+  margin-left: 0;
+}
+#why #miam ul li:first-child {
+  font-weight: bold;
+  font-size: 30px;
+}
+#why #miam li {
+  margin-top: 10px;
+}
+#why #miam button {
+  padding: 10px 15px;
+  background-color: rgba(255, 255, 255, 0.281);
+  border: none;
+  color: white;
+  border-radius: 20px;
+}
+#why #miam button:hover {
+  animation: hoverB alternate 0.7s infinite;
+}
+#why div {
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  height: 245px;
+  width: 35%;
+  transition: 0.2s;
+}
+#why div ul li {
+  margin-top: 25px;
+}
+#why div ul li i {
+  background-color: rgba(254, 86, 86, 0.119);
+  padding: 20px;
+  border-radius: 50%;
+  color: #70ddc4;
+}
+#why div ul li:nth-child(2) {
+  font-weight: bold;
+}
+#why div ul li:last-child {
+  font-size: 12px;
+}
+#why div:hover {
+  transform: scale(1.07);
+}
+
+#score {
+  background: url(../../public/img/stats-bg.jpg);
+  width: 100%;
+  background-attachment: fixed;
+}
+#score #scoreD {
+  width: 100%;
+  backdrop-filter: brightness(50%);
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding-block: 100px;
+}
+#score #scoreD div ul {
+  text-align: center;
+}
+#score #scoreD div ul li:first-child {
+  font-weight: bold;
+  font-size: 30px;
+}
+#score #scoreD div ul li:last-child {
+  font-weight: 200;
+  color: #d6d6d6;
+}

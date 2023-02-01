@@ -16,7 +16,7 @@
             text-align: center;
             overflow: hidden;
             width: 1350px;
-            padding-block: 5px;
+            padding-block: 20px;
             .carou3 {
                 display: flex;
                 width: 100%;
@@ -169,6 +169,6 @@
 
 
 .divVert{
-    padding: 4px;
+    transform: scale(1.1);
     border: 4px solid $vert;
 }

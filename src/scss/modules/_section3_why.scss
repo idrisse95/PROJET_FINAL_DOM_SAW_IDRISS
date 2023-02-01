@@ -33,6 +33,9 @@
             border: none;
             color: white;
             border-radius: 20px;
+            &:hover{
+                animation: hoverB alternate 0.7s infinite;
+            }
 
         }
 
