@@ -22,9 +22,32 @@
 body {
     font-family: monospace;
     margin: 0;
-   
+
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
+
+
+
+
+
+
+
+
+
+// SCROLL ANIM
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}

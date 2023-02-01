@@ -22,15 +22,21 @@ a {
 }
 
 header {
-    position: fixed;
+    
     width: 100%;
-    z-index: 99999;
-    top: 0;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+ 
 
 }
 
 nav {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    width: 90%;
+    padding-inline: 100px;
+
 
     background-color: white;
     display: flex;
@@ -127,23 +133,26 @@ body {
 
 .contain-hamburger {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 30px;
     right: 20px;
     padding: 10px;
     border-radius: 50%;
     background-color: white;
-}
+    z-index: 999999999999999999999999;
+
+
 
 #hamburger {
 
 
     div {
+
         width: 40px;
         height: 5px;
         margin-bottom: 5px;
         background-color: $vert;
         border-radius: 20px;
         transition: 0.5s;
-    }
+    }}
 }

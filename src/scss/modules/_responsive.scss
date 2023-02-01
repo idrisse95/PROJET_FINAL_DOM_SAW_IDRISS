@@ -83,6 +83,12 @@
 
         #miam {
             width: 80%;
+            
+        }
+
+        div{
+            width: 80%;
+            margin-left: 0!important;
         }
 
         div {
@@ -150,6 +156,9 @@
             }
 
         }
+        button{
+            display: none;
+        }
     }
 
 
@@ -190,10 +199,14 @@
             input {
                 border-radius: 5px;
                 padding-left: 10px;
+                width: 80%!important;
+                margin-left: 0!important;
             }
 
             textarea {
                 margin-left: 0 !important;
+                padding-left: 10px;
+                width: 80%!important;
             }
 
         }
@@ -263,5 +276,10 @@
     #ligne1{
         flex-direction: column;
         text-align: left;
+    }
+
+    .follow{
+        margin-top: 20px;
+        margin-left: 5%;
     }
 }

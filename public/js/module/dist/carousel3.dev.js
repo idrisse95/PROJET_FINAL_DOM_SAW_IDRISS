@@ -32,9 +32,6 @@ divTotal.forEach(function (element) {
     carousel3.style.transform = "translateX(-0%)";
     div3.classList.add('divVert');
   });
-  butt.addEventListener('focus', function () {
-    element[3].classList.add('divVert');
-  });
   butt2.addEventListener('click', function () {
     carousel3.style.transform = "translateX(-20%)";
   });

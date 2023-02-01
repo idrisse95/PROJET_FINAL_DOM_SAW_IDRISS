@@ -81,14 +81,17 @@ a {
 }
 
 header {
-  position: fixed;
   width: 100%;
-  z-index: 99999;
-  top: 0;
-  overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 nav {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  width: 90%;
+  padding-inline: 100px;
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -167,15 +170,15 @@ body {
 
 .contain-hamburger {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 30px;
   right: 20px;
   padding: 10px;
   border-radius: 50%;
   background-color: white;
+  z-index: 1000000000000000300000000;
 }
-
-#hamburger div {
+.contain-hamburger #hamburger div {
   width: 40px;
   height: 5px;
   margin-bottom: 5px;

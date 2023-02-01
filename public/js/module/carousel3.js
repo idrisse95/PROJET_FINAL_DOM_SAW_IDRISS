@@ -41,9 +41,7 @@ butt.addEventListener('click',()=>{
     
     
 })
-butt.addEventListener('focus',()=>{
-    element[3].classList.add('divVert')
-})
+ 
 
 butt2.addEventListener('click',()=>{
     carousel3.style.transform="translateX(-20%)"
