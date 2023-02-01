@@ -56,20 +56,33 @@ html {
 
 //DARK
 
-.dark{
-    background-color: black;
-    color: white;
+.oui.dark {
+    background-color: black!important;
+    color: white!important;
 }
 
-#dark-mode{
+.blanc.blanche{
+    color: white!important;
+}
+
+.blanche{
+    color: white!important;
+}
+
+.noir.noire{
+    color: black!important;
+}
+#dark-mode {
     position: fixed;
     bottom: 30px;
     left: 20px;
-    cursor: pointer;
-    button{
+    z-index: 999999999999999999;
+
+    button {
         border-radius: 50%;
         padding: 20px;
         background-color: transparent;
-       
+        cursor: pointer!important;
+
     }
 }
