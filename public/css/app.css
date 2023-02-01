@@ -2153,6 +2153,10 @@ body {
   }
   #Chefs .carte-chefs div {
     width: 300px !important;
+    height: 480px;
+  }
+  #Chefs .carte-chefs ul {
+    margin-top: 0 !important;
   }
   .contain-form div:last-child {
     width: 80% !important;
@@ -2161,10 +2165,21 @@ body {
     width: 80% !important;
     margin-left: 0 !important;
   }
+  .follow {
+    margin-top: 20px;
+    margin-left: 0%;
+    flex-wrap: wrap;
+  }
 }
 @media screen and (max-width: 400px) {
   #home img {
     width: 200px !important;
+  }
+  #miam {
+    padding-block: 50px !important;
+  }
+  #testmonial .carou1 .c div:first-child {
+    padding-right: 0 !important;
   }
 }
 @font-face {

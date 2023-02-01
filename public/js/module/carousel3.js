@@ -8,20 +8,6 @@ let butt7 = document.getElementById('butt7-3')
 let butt8 = document.getElementById('butt8-3')
 
 
-let div1 = document.querySelector('#tout .carou3 div:nth-child(1)')
-let div2 = document.querySelector('#tout .carou3 div:nth-child(2)')
-let div3 = document.querySelector('#tout .carou3 div:nth-child(3)')
-let div4 = document.querySelector('#tout .carou3 div:nth-child(4)')
-let div5 = document.querySelector('#tout .carou3 div:nth-child(5)')
-let div6 = document.querySelector('#tout .carou3 div:nth-child(6)')
-let div7 = document.querySelector('#tout .carou3 div:nth-child(7)')
-let div8 = document.querySelector('#tout .carou3 div:nth-child(8)')
-let div9 = document.querySelector('#tout .carou3 div:nth-child(9)')
-let div10 = document.querySelector('#tout .carou3 div:nth-child(10)')
-let div11 = document.querySelector('#tout .carou3 div:nth-child(11)')
-let div12 = document.querySelector('#tout .carou3 div:nth-child(12)')
-
-
 let divTotal = document.querySelectorAll('#tout .carou3 div')
 // console.log(div3);
 // div3.forEach(element => {
@@ -37,7 +23,10 @@ divTotal.forEach(element => {
 
     butt.addEventListener('click', () => {
         carousel3.style.transform = "translateX(-0%)"
-        div3.classList.add('divVert')
+        divTotal.forEach(element => {
+            element.classList.remove('divVert')
+            divTotal[2].classList.add('divVert')
+        });
 
 
     })
@@ -46,33 +35,68 @@ divTotal.forEach(element => {
     butt2.addEventListener('click', () => {
         carousel3.style.transform = "translateX(-20%)"
 
+        divTotal.forEach(element => {
+            element.classList.remove('divVert')
+            divTotal[3].classList.add('divVert')
+        });
+
     })
 
 
     butt3.addEventListener('click', () => {
         carousel3.style.transform = "translateX(-40%)"
+
+        divTotal.forEach(element => {
+            element.classList.remove('divVert')
+            divTotal[4].classList.add('divVert')
+        });
     })
 
     butt4.addEventListener('click', () => {
         carousel3.style.transform = "translateX(-60%)"
+
+        divTotal.forEach(element => {
+            element.classList.remove('divVert')
+            divTotal[5].classList.add('divVert')
+        });
     })
 
     butt5.addEventListener('click', () => {
         carousel3.style.transform = "translateX(-80%)"
 
+        divTotal.forEach(element => {
+            element.classList.remove('divVert')
+            divTotal[6].classList.add('divVert')
+        });
+
     })
 
     butt6.addEventListener('click', () => {
         carousel3.style.transform = "translateX(-100%)"
+
+        divTotal.forEach(element => {
+            element.classList.remove('divVert')
+            divTotal[7].classList.add('divVert')
+        });
     })
 
 
     butt7.addEventListener('click', () => {
         carousel3.style.transform = "translateX(-120%)"
+
+        divTotal.forEach(element => {
+            element.classList.remove('divVert')
+            divTotal[8].classList.add('divVert')
+        });
     })
 
     butt8.addEventListener('click', () => {
         carousel3.style.transform = "translateX(-140%)"
+
+        divTotal.forEach(element => {
+            element.classList.remove('divVert')
+            divTotal[9].classList.add('divVert')
+        });
     })
 
 

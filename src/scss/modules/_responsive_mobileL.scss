@@ -77,8 +77,13 @@
         .carte-chefs {
             div {
                 width: 300px !important;
+                height: 480px;
+            }
+            ul{
+                margin-top: 0!important;
             }
         }
+        
     }
 
     //BOOK
@@ -94,6 +99,13 @@
         }
     }
 
+
+
+    .follow {
+        margin-top: 20px;
+        margin-left: 0%;
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -117,4 +129,28 @@
             width: 200px !important;
         }
     }
+
+
+
+    //MIAM
+
+    #miam{
+        padding-block: 50px!important;
+    }
+
+
+    //TESTMONIAL
+
+    #testmonial{
+        .carou1{
+            .c{
+                div:first-child{
+                    padding-right: 0!important;
+                }
+            }
+        }
+    }
+
+
+    
 }
