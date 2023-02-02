@@ -41,6 +41,7 @@
 }
 
 #Contact{
+    margin-top: 100px;
     .input-contact{
         padding: 20px;
         background-color: white;
@@ -50,7 +51,11 @@
             border:1px solid rgba(128, 128, 128, 0.283);
             height: 30px;
         }
-        
+        div{
+            input{
+                padding: 10px 0px;
+            }
+        }
         div:nth-child(1){
             display: flex;
             justify-content: space-around;

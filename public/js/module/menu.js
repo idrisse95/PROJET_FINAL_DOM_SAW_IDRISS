@@ -108,9 +108,9 @@ let prix2 = document.createElement('div')
  
 items2.setAttribute('class','items')
 img2.setAttribute('src','./public/img/menu/menu-item-2.png')
-nom2.textContent="Magnam Tiste"
+nom2.textContent="Aut Luia"
 text2.textContent="Lorem ispum dolor sit."
-prix2.textContent="$5.95"
+prix2.textContent="$14.95"
 
 
 
@@ -142,9 +142,9 @@ let prix3 = document.createElement('div')
  
 items3.setAttribute('class','items')
 img3.setAttribute('src','./public/img/menu/menu-item-3.png')
-nom3.textContent="Magnam Tiste"
+nom3.textContent="Est Eligendi"
 text3.textContent="Lorem ispum dolor sit."
-prix3.textContent="$5.95"
+prix3.textContent="$8.95"
 
 
 
@@ -177,9 +177,9 @@ let prix4 = document.createElement('div')
 cartel2.setAttribute('class','carte')
 items4.setAttribute('class','items')
 img4.setAttribute('src','./public/img/menu/menu-item-4.png')
-nom4.textContent="Magnam Tiste"
+nom4.textContent="Eos Lubusdam"
 text4.textContent="Lorem ispum dolor sit."
-prix4.textContent="$5.95"
+prix4.textContent="$12.95"
 
 
 
@@ -213,9 +213,9 @@ let prix5 = document.createElement('div')
 cartel2.setAttribute('class','carte')
 items5.setAttribute('class','items')
 img5.setAttribute('src','./public/img/menu/menu-item-5.png')
-nom5.textContent="Magnam Tiste"
+nom5.textContent="Eos Luibusdam"
 text5.textContent="Lorem ispum dolor sit."
-prix5.textContent="$5.95"
+prix5.textContent="$9.95"
 
 
 

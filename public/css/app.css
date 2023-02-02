@@ -488,7 +488,6 @@ body {
 }
 #About .book .bookTexte ul #fondLi .containB .bord:hover .i i {
   transform: scale(60);
-  padding-right: 40px;
 }
 @-webkit-keyframes play {
   0% {
@@ -1075,7 +1074,7 @@ body {
 }
 #Events #contain-carousel2 #carou2 {
   overflow: hidden;
-  width: 1380px;
+  width: 1395px;
 }
 #Events #contain-carousel2 #carou2 #slider2 {
   display: flex;
@@ -1725,6 +1724,9 @@ body {
   margin-right: 0;
 }
 
+#Contact {
+  margin-top: 100px;
+}
 #Contact .input-contact {
   padding: 20px;
   background-color: white;
@@ -1734,6 +1736,9 @@ body {
 #Contact .input-contact input {
   border: 1px solid rgba(128, 128, 128, 0.283);
   height: 30px;
+}
+#Contact .input-contact div input {
+  padding: 10px 0px;
 }
 #Contact .input-contact div:nth-child(1) {
   display: flex;
