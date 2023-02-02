@@ -21,11 +21,15 @@
             border-radius: 5px;
             width: 300px;
             padding: 20px 20px;
-            height: 400px;
+            height: 500px;
+            overflow: hidden;
 
             .style-mod {
                 background-color: white;
                 border-radius: 5px;
+                position: relative;
+                height: 95%;
+                
 
                 #input-modal {
 
@@ -33,45 +37,96 @@
                     width: 100%;
                     height: 100%;
                     margin-top: 0;
-                    li:first-child{
+                     
+                    
+
+                    li:first-child {
                         font-size: 30px;
                         letter-spacing: 3px;
                         font-weight: 500;
-                        padding-block: 20px!important;
+                        padding-block: 20px !important;
                     }
-                    li{
+
+                    li {
                         margin-top: 10px;
-                        input{
+
+                        input {
                             padding: 10px;
                             border-radius: 3px;
                             border: dashed 0.25px rgba(128, 128, 128, 0.498);
-                            &:focus{
+
+                            &:focus {
                                 border: solid 1px $vert;
                             }
-                            
+
                         }
-                        button{
+
+                        button {
                             border-radius: 20px;
                             background-color: $vert;
                             padding: 10px 20px;
                             color: white;
                             border: none;
                             margin-top: 30px;
+                            cursor: pointer;
                         }
-                        #enr{
-                            margin-right: 10px;
+
+                        #enr {
+                            margin-bottom: 50px;
                         }
                     }
                 }
 
                 #book-modal {
-                    padding-top: 20px;
+                    position: absolute;
+                    padding-top: 5px;
+                    cursor: pointer;
+                    transform: translateY(2.5%);
+                    background-color: $vert;
+                    border-radius: 40% 40% 0 0;
+                    height: 450px;
+                    width: 100%;
+                    transition: 0.6s;
+                    &:hover{
+                        transform: translateY(-10%);
+                    }
                     ul {
-                        background-color: $vert;
-                        border-radius: 50% 50% 0 0;
-                       li:first-child{
 
-                       }
+                        color: white;
+
+                        li:first-child {
+                            font-size: 30px;
+                        }
+
+                        li:nth-child(2) {
+                            font-size: 19px;
+                            padding-top: 20px;
+                            font-weight: 600;
+                            margin-bottom: 50px;
+                        }
+                        li{
+                            margin-block: 20px;
+                            input{
+                                padding: 10px;
+                                border-radius: 3px;
+                                border: dashed 0.25px rgba(128, 128, 128, 0.498);
+    
+                                &:focus {
+                                    border: solid 1px $vert;
+                                }
+                            }
+                            button{
+                                border-radius: 20px;
+                                background:white;
+                                padding: 10px 20px;
+                                color: $vert;
+                                border: 2px rgb(76, 214, 166) solid;
+                                font-weight: 600;
+                                margin-top: 30px;
+                                cursor: pointer;
+                            }
+
+                        }
 
                     }
                 }
@@ -85,4 +140,10 @@
 
 #contain-modal {
     display: none;
+}
+
+
+.translate-modal{
+  transform: translateY(-84%);
+  cursor: unset;
 }

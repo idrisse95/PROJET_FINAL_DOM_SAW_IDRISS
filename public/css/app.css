@@ -1860,11 +1860,14 @@ body {
   border-radius: 5px;
   width: 300px;
   padding: 20px 20px;
-  height: 400px;
+  height: 500px;
+  overflow: hidden;
 }
 .back-modal .les-deux .modal .style-mod {
   background-color: white;
   border-radius: 5px;
+  position: relative;
+  height: 95%;
 }
 .back-modal .les-deux .modal .style-mod #input-modal {
   border-radius: 5px;
@@ -1896,19 +1899,66 @@ body {
   color: white;
   border: none;
   margin-top: 30px;
+  cursor: pointer;
 }
 .back-modal .les-deux .modal .style-mod #input-modal li #enr {
-  margin-right: 10px;
+  margin-bottom: 50px;
 }
 .back-modal .les-deux .modal .style-mod #book-modal {
-  padding-top: 20px;
+  position: absolute;
+  padding-top: 5px;
+  cursor: pointer;
+  transform: translateY(2.5%);
+  background-color: rgb(112, 221, 196);
+  border-radius: 40% 40% 0 0;
+  height: 450px;
+  width: 100%;
+  transition: 0.6s;
+}
+.back-modal .les-deux .modal .style-mod #book-modal:hover {
+  transform: translateY(-10%);
 }
 .back-modal .les-deux .modal .style-mod #book-modal ul {
-  background-color: rgb(112, 221, 196);
-  border-radius: 50% 50% 0 0;
+  color: white;
 }
+.back-modal .les-deux .modal .style-mod #book-modal ul li:first-child {
+  font-size: 30px;
+}
+.back-modal .les-deux .modal .style-mod #book-modal ul li:nth-child(2) {
+  font-size: 19px;
+  padding-top: 20px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.back-modal .les-deux .modal .style-mod #book-modal ul li {
+  margin-block: 20px;
+}
+.back-modal .les-deux .modal .style-mod #book-modal ul li input {
+  padding: 10px;
+  border-radius: 3px;
+  border: dashed 0.25px rgba(128, 128, 128, 0.498);
+}
+.back-modal .les-deux .modal .style-mod #book-modal ul li input:focus {
+  border: solid 1px rgb(112, 221, 196);
+}
+.back-modal .les-deux .modal .style-mod #book-modal ul li button {
+  border-radius: 20px;
+  background: white;
+  padding: 10px 20px;
+  color: rgb(112, 221, 196);
+  border: 2px rgb(76, 214, 166) solid;
+  font-weight: 600;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
 #contain-modal {
   display: none;
+}
+
+.translate-modal {
+  transform: translateY(-84%);
+  cursor: unset;
 }
 
 @media screen and (max-width: 769px) {
