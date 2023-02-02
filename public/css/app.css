@@ -1075,7 +1075,7 @@ body {
 }
 #Events #contain-carousel2 #carou2 {
   overflow: hidden;
-  width: 1080px;
+  width: 1380px;
 }
 #Events #contain-carousel2 #carou2 #slider2 {
   display: flex;
@@ -1083,8 +1083,8 @@ body {
   transition: 0.2s;
 }
 #Events #contain-carousel2 #carou2 #slider2 .cust:nth-child(1) {
-  width: 350px;
-  height: 450px;
+  width: 450px;
+  height: 650px;
   flex-shrink: 0;
   margin-left: 0;
   background: linear-gradient(rgba(0, 0, 0, 0.516), rgba(0, 0, 0, 0.543)), url(../../../public/img/events-1.jpg);
@@ -1092,28 +1092,28 @@ body {
   background-repeat: no-repeat;
 }
 #Events #contain-carousel2 #carou2 #slider2 .cust {
-  width: 350px;
-  height: 450px;
+  width: 450px;
+  height: 650px;
   flex-shrink: 0;
-  margin-left: 10px;
+  margin-left: 20px;
   background: linear-gradient(rgba(0, 0, 0, 0.516), rgba(0, 0, 0, 0.543)), url(../../../public/img/events-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #Events #contain-carousel2 #carou2 #slider2 .priv {
-  width: 350px;
-  height: 450px;
+  width: 450px;
+  height: 650px;
   flex-shrink: 0;
-  margin-left: 10px;
+  margin-left: 20px;
   background: linear-gradient(rgba(0, 0, 0, 0.516), rgba(0, 0, 0, 0.543)), url(../../../public/img/events-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #Events #contain-carousel2 #carou2 #slider2 .birth {
-  width: 350px;
-  height: 450px;
+  width: 450px;
+  height: 650px;
   flex-shrink: 0;
-  margin-left: 10px;
+  margin-left: 20px;
   background: linear-gradient(rgba(0, 0, 0, 0.516), rgba(0, 0, 0, 0.543)), url(../../../public/img/events-3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1148,7 +1148,7 @@ body {
 }
 #Events .butt-carousel2 button {
   width: 10px;
-  height: 10px;
+  height: 20px;
   border-radius: 100%;
   margin-inline: 2.1px;
   border: none;
@@ -1539,102 +1539,67 @@ body {
 #Gallery #tout .contain-carousel3 .carou3 div {
   flex-shrink: 0;
   box-shadow: 0 0 5px 5px rgba(77, 77, 77, 0.276);
-}
-#Gallery #tout .contain-carousel3 .carou3 div:nth-child(1) {
-  background: url(../../../public/img/gallery/gallery-1.jpg);
   width: 250px;
   height: 200px;
   margin-inline: 10px;
-  background-size: cover;
-  background-repeat: no-repeat;
+}
+#Gallery #tout .contain-carousel3 .carou3 div:nth-child(1) {
+  background: url(../../../public/img/gallery/gallery-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #Gallery #tout .contain-carousel3 .carou3 div:nth-child(2) {
   background: url(../../../public/img/gallery/gallery-2.jpg);
-  width: 250px;
-  height: 200px;
-  margin-inline: 10px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #Gallery #tout .contain-carousel3 .carou3 div:nth-child(3) {
   background: url(../../../public/img/gallery/gallery-3.jpg);
-  width: 250px;
-  height: 200px;
-  margin-inline: 10px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #Gallery #tout .contain-carousel3 .carou3 div:nth-child(4) {
   background: url(../../../public/img/gallery/gallery-4.jpg);
-  width: 250px;
-  height: 200px;
-  margin-inline: 10px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #Gallery #tout .contain-carousel3 .carou3 div:nth-child(5) {
   background: url(../../../public/img/gallery/gallery-5.jpg);
-  width: 250px;
-  height: 200px;
-  margin-inline: 10px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #Gallery #tout .contain-carousel3 .carou3 div:nth-child(6) {
   background: url(../../../public/img/gallery/gallery-6.jpg);
-  width: 250px;
-  height: 200px;
-  margin-inline: 10px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #Gallery #tout .contain-carousel3 .carou3 div:nth-child(7) {
   background: url(../../../public/img/gallery/gallery-7.jpg);
-  width: 250px;
-  height: 200px;
-  margin-inline: 10px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #Gallery #tout .contain-carousel3 .carou3 div:nth-child(8) {
   background: url(../../../public/img/gallery/gallery-8.jpg);
-  width: 250px;
-  height: 200px;
-  margin-inline: 10px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #Gallery #tout .contain-carousel3 .carou3 div:nth-child(9) {
   background: url(../../../public/img/gallery/gallery-1.jpg);
-  width: 250px;
-  height: 200px;
-  margin-inline: 10px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #Gallery #tout .contain-carousel3 .carou3 div:nth-child(10) {
   background: url(../../../public/img/gallery/gallery-2.jpg);
-  width: 250px;
-  height: 200px;
-  margin-inline: 10px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #Gallery #tout .contain-carousel3 .carou3 div:nth-child(11) {
   background: url(../../../public/img/gallery/gallery-3.jpg);
-  width: 250px;
-  height: 200px;
-  margin-inline: 10px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #Gallery #tout .contain-carousel3 .carou3 div:nth-child(12) {
   background: url(../../../public/img/gallery/gallery-4.jpg);
-  width: 250px;
-  height: 200px;
-  margin-inline: 10px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1889,21 +1854,59 @@ body {
   align-items: center;
   justify-content: center;
 }
-.back-modal .modal {
+.back-modal .les-deux .modal {
+  text-align: center;
   background-color: rgba(112, 221, 196, 0.607);
   border-radius: 5px;
   width: 300px;
-  padding: 50px 30px;
-  height: 300px;
+  padding: 20px 20px;
+  height: 400px;
 }
-.back-modal .modal #input-modal {
+.back-modal .les-deux .modal .style-mod {
   background-color: white;
+  border-radius: 5px;
+}
+.back-modal .les-deux .modal .style-mod #input-modal {
   border-radius: 5px;
   width: 100%;
   height: 100%;
   margin-top: 0;
 }
-
+.back-modal .les-deux .modal .style-mod #input-modal li:first-child {
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  padding-block: 20px !important;
+}
+.back-modal .les-deux .modal .style-mod #input-modal li {
+  margin-top: 10px;
+}
+.back-modal .les-deux .modal .style-mod #input-modal li input {
+  padding: 10px;
+  border-radius: 3px;
+  border: dashed 0.25px rgba(128, 128, 128, 0.498);
+}
+.back-modal .les-deux .modal .style-mod #input-modal li input:focus {
+  border: solid 1px rgb(112, 221, 196);
+}
+.back-modal .les-deux .modal .style-mod #input-modal li button {
+  border-radius: 20px;
+  background-color: rgb(112, 221, 196);
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  margin-top: 30px;
+}
+.back-modal .les-deux .modal .style-mod #input-modal li #enr {
+  margin-right: 10px;
+}
+.back-modal .les-deux .modal .style-mod #book-modal {
+  padding-top: 20px;
+}
+.back-modal .les-deux .modal .style-mod #book-modal ul {
+  background-color: rgb(112, 221, 196);
+  border-radius: 50% 50% 0 0;
+}
 #contain-modal {
   display: none;
 }
@@ -2151,6 +2154,9 @@ body {
     flex-direction: column !important;
     align-items: center;
   }
+  #slider2 div {
+    height: 450px !important;
+  }
   #Chefs .carte-chefs div {
     width: 300px !important;
     height: 480px;
@@ -2164,6 +2170,10 @@ body {
   .contain-form div:last-child input {
     width: 80% !important;
     margin-left: 0 !important;
+  }
+  .adress {
+    width: 90% !important;
+    margin-inline: 0 !important;
   }
   .follow {
     margin-top: 20px;
@@ -2180,6 +2190,19 @@ body {
   }
   #testmonial .carou1 .c div:first-child {
     padding-right: 0 !important;
+  }
+  #slider2 div {
+    height: 400px !important;
+  }
+}
+@media screen and (max-width: 377px) {
+  #slider2 div {
+    height: 450px !important;
+  }
+}
+@media screen and (max-width: 321px) {
+  #slider2 div {
+    height: 420px !important;
   }
 }
 @font-face {
@@ -2402,10 +2425,19 @@ html {
 .oui.dark {
   background-color: black !important;
   color: white !important;
+  transition: 0.5s;
+}
+
+.oui {
+  transition: 0.5s;
 }
 
 .blanc.blanche {
   color: white !important;
+}
+
+.blanc {
+  transition: 0.5s;
 }
 
 .blanche {
@@ -2414,6 +2446,10 @@ html {
 
 .noir.noire {
   color: black !important;
+}
+
+.noir {
+  transition: 0.5s;
 }
 
 #dark-mode {

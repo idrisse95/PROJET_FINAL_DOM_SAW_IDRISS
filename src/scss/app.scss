@@ -38,6 +38,7 @@ html {
 
 
 
+
 // SCROLL ANIM
 
 .reveal {
@@ -59,18 +60,34 @@ html {
 .oui.dark {
     background-color: black!important;
     color: white!important;
+    transition: 0.5s;
+}
+
+.oui{
+    transition: 0.5s;
 }
 
 .blanc.blanche{
-    color: white!important;
+    color: white!important;   
+
+}
+
+.blanc{
+    transition: 0.5s;
 }
 
 .blanche{
-    color: white!important;
+    color: white!important;    
+
 }
 
 .noir.noire{
-    color: black!important;
+    color: black!important;   
+
+}
+
+.noir{
+    transition: 0.5s;
 }
 #dark-mode {
     position: fixed;

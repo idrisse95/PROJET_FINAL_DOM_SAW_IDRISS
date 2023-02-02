@@ -8,7 +8,7 @@
         margin-top: 50px;
         #carou2 {
             overflow: hidden;
-            width: 1080px;
+            width: 1380px;
 
             #slider2 {
                 display: flex;
@@ -16,8 +16,8 @@
                 transition: 0.2s;
 
                 .cust:nth-child(1){
-                    width: 350px;
-                    height: 450px;
+                    width: 450px;
+                    height: 650px;
                     flex-shrink: 0;
                     margin-left: 0;
                     background:linear-gradient(rgba(0, 0, 0, 0.516),rgba(0, 0, 0, 0.543)), url(../../../public/img/events-1.jpg);
@@ -26,30 +26,30 @@
                 }
 
                 .cust {
-                    width: 350px;
-                    height: 450px;
+                    width: 450px;
+                    height: 650px;
                     flex-shrink: 0;
-                   margin-left: 10px;
+                    margin-left: 20px;
                     background:linear-gradient(rgba(0, 0, 0, 0.516),rgba(0, 0, 0, 0.543)), url(../../../public/img/events-1.jpg);
                     background-size: cover;
                     background-repeat: no-repeat;
                 }
 
                 .priv {
-                    width: 350px;
-                    height: 450px;
+                    width: 450px;
+                    height: 650px;
                     flex-shrink: 0;
-                    margin-left: 10px;
+                    margin-left: 20px;
                     background:linear-gradient(rgba(0, 0, 0, 0.516),rgba(0, 0, 0, 0.543)), url(../../../public/img/events-2.jpg);
                     background-size: cover;
                     background-repeat: no-repeat;
                 }
 
                 .birth {
-                    width: 350px;
-                    height: 450px;
+                    width: 450px;
+                    height: 650px;
                     flex-shrink: 0;
-                    margin-left: 10px;
+                    margin-left: 20px;
                     background: linear-gradient(rgba(0, 0, 0, 0.516),rgba(0, 0, 0, 0.543)), url(../../../public/img/events-3.jpg);
                     background-size: cover;
                     background-repeat: no-repeat;
@@ -93,7 +93,7 @@
 
         button {
             width: 10px;
-            height: 10px;
+            height: 20px;
             border-radius: 100%;
             margin-inline: 2.10px;
             border: none;

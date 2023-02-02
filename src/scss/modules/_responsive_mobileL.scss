@@ -71,6 +71,15 @@
     }
 
 
+    //EVENTS
+
+    #slider2{
+        div{
+            height: 450px!important;
+        }
+    }
+
+
     //CHEFS
 
     #Chefs {
@@ -100,6 +109,16 @@
     }
 
 
+
+    //CONTACT
+
+    .adress{
+        width: 90%!important;
+        margin-inline: 0!important;
+    }
+
+
+    //FOOTER
 
     .follow {
         margin-top: 20px;
@@ -151,6 +170,45 @@
         }
     }
 
+    //EVENTS
+
+    #slider2{
+        div{
+            height: 400px!important;
+        }
+    }
+
 
     
+}
+
+
+
+
+
+
+//MOBILE M
+
+@media screen and (max-width:377px){
+    //EVENTS
+
+   #slider2{
+       div{
+           height: 450px!important;
+       }
+   }
+}
+
+
+
+//MOBILE M
+
+@media screen and (max-width:321px){
+    //EVENTS
+
+   #slider2{
+       div{
+           height: 420px!important;
+       }
+   }
 }
