@@ -1,7 +1,6 @@
 
 let enr = document.getElementById('enr')
-let fermer = document.getElementById('fermer')
-let modal = document.getElementById('contain-modal')
+ let modal = document.getElementById('contain-modal')
 let button = document.getElementById('butt-modal')
 
 let nom = document.querySelector('.modal ul li:nth-child(2) input')
@@ -13,16 +12,33 @@ button.addEventListener('click', () => {
 })
 
 enr.addEventListener('click', () => {
+    location.reload()
     button.textContent = nom.value
     modal.style.display = 'none'
 })
 
-fermer.addEventListener('click', () => {
-    modal.style.display = 'none'
+ 
+
+
+//MODAL OUVERTURE
+
+let inscrire = document.getElementById('input-modal')
+let trans = document.getElementById('tt')
+let book = document.getElementById('book-modal')
+let buttonB = document.getElementById('bookB')
+ 
+
+
+
+trans.addEventListener('click',()=>{
+    book.classList.toggle('translate-modal')
+    inscrire.classList.toggle('op')
 })
 
-
-
+buttonB.addEventListener('click',()=>{
+    modal.style.display='none'
+    location.reload()
+})
 
 
 

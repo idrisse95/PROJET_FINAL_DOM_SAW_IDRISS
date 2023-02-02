@@ -1874,6 +1874,7 @@ body {
   width: 100%;
   height: 100%;
   margin-top: 0;
+  transition: 0.5s;
 }
 .back-modal .les-deux .modal .style-mod #input-modal li:first-child {
   font-size: 30px;
@@ -1956,9 +1957,17 @@ body {
   display: none;
 }
 
+#tt {
+  cursor: pointer;
+}
+
 .translate-modal {
-  transform: translateY(-84%);
-  cursor: unset;
+  transform: translateY(-84%) !important;
+  cursor: unset !important;
+}
+
+.op {
+  opacity: 0 !important;
 }
 
 @media screen and (max-width: 769px) {
