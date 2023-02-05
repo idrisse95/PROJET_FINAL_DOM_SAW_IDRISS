@@ -1256,6 +1256,10 @@ body {
 }
 #Chefs .carte-chefs .anim-chef li i {
   font-size: 16px;
+  transition: 0.3s;
+}
+#Chefs .carte-chefs .anim-chef li i:hover {
+  color: rgb(112, 221, 196);
 }
 #Chefs .carte-chefs div {
   margin-inline: 10px;
@@ -1435,12 +1439,15 @@ body {
 @keyframes hoverB {
   0% {
     background-color: red;
+    box-shadow: 0 5px 10px rgb(64, 0, 0);
   }
   50% {
     background-color: rgb(154, 0, 0);
+    box-shadow: 0 5px 10px rgb(64, 0, 0);
   }
   100% {
     background-color: rgb(154, 0, 0);
+    box-shadow: 0 5px 10px rgb(64, 0, 0);
   }
 }
 @font-face {
@@ -1609,6 +1616,7 @@ body {
   border: none;
   margin-inline: 2px;
   background-color: rgb(174, 174, 174);
+  cursor: pointer;
 }
 #Gallery button:focus {
   background-color: rgb(112, 221, 196);
@@ -1913,7 +1921,6 @@ body {
 .back-modal .les-deux .modal .style-mod #book-modal {
   position: absolute;
   padding-top: 5px;
-  cursor: pointer;
   transform: translateY(2.5%);
   background-color: rgb(112, 221, 196);
   border-radius: 40% 40% 0 0;

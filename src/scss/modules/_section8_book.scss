@@ -41,6 +41,7 @@
                     border: none;
                     border-radius: 20px;
                     transition: 0.5s;
+                 
                     &:hover{
                         animation: hoverB alternate 0.7s infinite;
                     }
@@ -54,12 +55,14 @@
 @keyframes hoverB {
     0%{
         background-color: red;
+        box-shadow: 0 5px 10px rgb(64, 0, 0);
     }
     50%{
         background-color: rgb(154, 0, 0);
-
+        box-shadow: 0 5px 10px rgb(64, 0, 0);
     }
     100%{
         background-color: rgb(154, 0, 0);
+        box-shadow: 0 5px 10px rgb(64, 0, 0);
     }
 }

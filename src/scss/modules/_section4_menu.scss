@@ -38,7 +38,7 @@
             cursor: pointer;
             &:focus{
                 color: $vert;
-                border-bottom:2px solid $vert;
+                border-bottom:2px solid  $vert; 
             }
         }
     }

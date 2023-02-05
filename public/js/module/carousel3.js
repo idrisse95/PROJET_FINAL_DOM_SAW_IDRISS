@@ -6,13 +6,9 @@ let butt5 = document.getElementById('butt5-3')
 let butt6 = document.getElementById('butt6-3')
 let butt7 = document.getElementById('butt7-3')
 let butt8 = document.getElementById('butt8-3')
-
-
 let divTotal = document.querySelectorAll('#tout .carou3 div')
-// console.log(div3);
-// div3.forEach(element => {
-//     console.log(document.element.clientWidth);
-// });
+
+ 
 
 divTotal.forEach(element => {
 

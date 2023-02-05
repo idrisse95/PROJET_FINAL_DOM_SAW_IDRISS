@@ -1,8 +1,7 @@
 
 let enr = document.getElementById('enr')
- let modal = document.getElementById('contain-modal')
+let modal = document.getElementById('contain-modal')
 let button = document.getElementById('butt-modal')
-
 let nom = document.querySelector('.modal ul li:nth-child(2) input')
 let prenom = document.querySelector('.modal ul li:nth-child(3) input')
 
@@ -47,13 +46,11 @@ buttonB.addEventListener('click',()=>{
 let darkB = document.querySelector('#dark-mode')
 let txtHome = document.querySelectorAll('.blanc')
 let bodyc = document.querySelectorAll('.oui')
-
 let choix = document.querySelectorAll('#choix button')
 let menu = document.querySelectorAll('.carte .items div:nth-child(2)')
-
 let chef = document.querySelectorAll(' .noir')
-
 let i = document.querySelector('#dark-mode i')
+
 console.log(darkB);
 console.log(bodyc);
 
